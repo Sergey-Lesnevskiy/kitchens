@@ -1,0 +1,74 @@
+.container__menu {
+  padding-top: 45px;
+}
+.menu__header,.menu__list,.menu__footer-button{
+  display: none;
+}
+
+.menu__section {
+  margin-bottom: 48px;
+}
+
+.container-text {
+  display: flex;
+  height: 29px;
+  align-items: center;
+  margin-bottom: 19px;
+}
+
+.section__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.05px;
+
+}
+
+.triangle {
+  width: 15px;
+  height: 10px;
+  margin-left: 5px;
+}
+
+.section__menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 9px;
+}
+
+.button__section-menu {
+  width: 203px;
+  height: 54px;
+  background-color: var(--grey-platinum);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+  justify-content: start;
+  padding-left: 19px;
+}
+
+.triangle-down.active {
+  transform: rotate(0)
+}
+
+.triangle-down {
+  transform: rotate(-90deg)
+}
+
+.menu__footer {
+  display: flex;
+  justify-content: end;
+}
+.menu__footer .footer__social-link:last-child{
+display: none;
+}
+
+.menu__footer .footer__contacts .footer__contacts-email {
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.menu__footer .footer__contacts .footer__contacts-phone-num {
+  margin-bottom: 7px;
+}
