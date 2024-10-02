@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Inter", system-ui;
+    font-weight:400;
+    src: url('../fonts/Inter-Regular.otf') format('otf'),
+}
+@font-face {
+  font-family: "Inter", system-ui;
+    font-weight:500;
+    src: url('../fonts/Inter-Medium.otf') format('otf'),
+}
