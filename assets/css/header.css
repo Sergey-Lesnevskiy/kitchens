@@ -145,7 +145,7 @@
 
 .header__main-supportive-content {
   display: flex;
-  /* width: 100%; */
+  width: 35%;
 }
 
 .wrapper-img-heart {

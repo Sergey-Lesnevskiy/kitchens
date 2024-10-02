@@ -1,0 +1,116 @@
+/* .hero__container{
+  height: 552px;
+
+} */
+.hero__content {
+  max-width: 1320px;
+  height: 552px;
+  padding: 0;
+  background-image: url(../img/png/heroBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  color: var(--white);
+  padding-left: 45px;
+  padding-top: 116px;
+  border-radius: 10px;
+}
+
+.hero__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58.09px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.hero__service-list {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.2px;
+  letter-spacing: -1%;
+  margin-bottom: 59px;
+}
+
+.hero__service-item::before {
+  font-size: 1em;
+  margin: 10px 8px 0 0;
+  color: var(--white);
+  content: "—";
+}
+
+.hero__button {
+  width: 219px;
+  height: 57px;
+  color: var(--white);
+  background-color: var(--red);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+@media (max-width: 760px) {
+  .hero__content {
+    min-height: 358px;
+    /* нужно увеличить высоту , ломается вёрстка */
+    /* height: 358px; */
+    max-width: 727px;
+    padding-left: 14px;
+    padding-top: 94px;
+  }
+
+  .hero__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43.57px;
+    letter-spacing: -0.8px;
+    margin-bottom: 7px;
+  }
+
+  .hero__service-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: -0.8px;
+    margin-bottom: 29px;
+  }
+
+  .hero__button {
+    width: 170px;
+    height: 49px;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero__container {
+    height: 700px;
+  }
+
+  .hero__content {
+    position: relative;
+
+    height: 622px;
+    max-width: 378px;
+    padding-left: 14px;
+    padding-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .hero__title {
+    margin-bottom: 20px;
+  }
+
+  .hero__service-list {
+    margin-bottom: 0;
+  }
+
+  .hero__button {
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    width: 100%;
+    background-color: var(--black);
+  }
+}
