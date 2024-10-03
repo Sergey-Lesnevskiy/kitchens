@@ -37,7 +37,6 @@
     display: none;
   }
   .workExamples__button {
-  
     align-self: center;
   }
 }
@@ -56,5 +55,30 @@
   .workExamples__card{
     width: 288px;
     height: 596px;
+  }
+  .workExamples__card-img{
+height: 347px;
+  }
+  .workExamples__card-description{
+    font-size: 16px;
+    line-height: 19.36px;
+    margin-bottom:14px ;
+  }
+  .workExamples__card-buttons{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .workExamples__calculate,.workExamples__order{
+    width: 100%;
+  }
+  .workExamples__order{
+    margin-bottom: 7px;
+  }
+  .workExamples__card::after{
+    content: none;
+  }
+  .workExamples__button{
+    width: 100%;
   }
 }
