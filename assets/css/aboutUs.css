@@ -1,3 +1,6 @@
+.aboutUs{
+  margin-bottom: 97px;
+}
 .aboutUs__title{
   font-weight: 500;
   font-size: 40px;
@@ -8,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 47px;
 }
 .aboutUs__main-img{
   width: 40%;
@@ -22,7 +26,28 @@ max-width: 383px;
   justify-content: space-between;
   height: 342px;
 }
+.aboutUs__tagline{
+  font-weight: 400;
+}
+.aboutUs__slogans-list{
+  display: flex;
+  justify-content: space-between;
+/* flex-wrap: wrap; */
+  width: 100%;
+
+}
+.aboutUs__slogan-item{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 101px;
+}
+.aboutUs__slogan-item:not(:last-child){
+  border-right: 1px solid var(--gray-steel);
+}
 .aboutUs__slogan-num{
+  display: flex;
+  align-items: center;
   font-weight: 900;
   font-size: 64px;
   line-height: 77.45px;
@@ -38,7 +63,8 @@ max-width: 383px;
   font-weight: 500;
   font-size: 24px;
   line-height: 29.05px;
+  margin-bottom: 4px;
 }
 .aboutUs__slogan-description{
-  width: 272px;
+  max-width: 272px;
 }
