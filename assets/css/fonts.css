@@ -8,3 +8,13 @@
     font-weight:500;
     src: url('../fonts/Inter-Medium.otf') format('otf'),
 }
+@font-face {
+  font-family: "Inter", system-ui;
+    font-weight:600;
+    src: url('../fonts/Inter-SemiBold.otf') format('otf'),
+}
+@font-face {
+  font-family: "Inter", system-ui;
+    font-weight:900;
+    src: url('../fonts/Inter-Black.otf') format('otf'),
+}

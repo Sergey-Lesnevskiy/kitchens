@@ -1,0 +1,44 @@
+.aboutUs__title{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48.41px;
+  color: var(--black);
+}
+.aboutUs__main{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.aboutUs__main-img{
+  width: 40%;
+}
+.aboutUs__logo{
+max-width: 383px;
+}
+.aboutUs__wrapper-text{
+  display: flex;
+  flex-direction: column;
+  max-width: 592px;
+  justify-content: space-between;
+  height: 342px;
+}
+.aboutUs__slogan-num{
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77.45px;
+}
+.point{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--black);
+}
+.aboutUs__slogan-title{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.05px;
+}
+.aboutUs__slogan-description{
+  width: 272px;
+}
