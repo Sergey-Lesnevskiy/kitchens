@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+  .blog__card:nth-child(1){
+    display: none;
+  }
+  .blog__cards{
+    margin-bottom: 20px;
+  }
+  .blog__card{
+    max-width: 353px;
+    padding: 10px 19px 10px 10px;
+    height: 434px;
+  }
+}
+@media (max-width: 430px) {
+  .blog__cards{
+    flex-direction: column;
+    row-gap: 14px;
+  }
+  .blog__card {
+    max-width:max-content;
+    }
+
+}
