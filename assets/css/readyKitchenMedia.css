@@ -1,0 +1,65 @@
+@media (max-width: 767px) {
+  .readyKitchen__content {
+    padding: 13px 0 0 12px;
+  }
+
+  .discount__button {
+    margin-bottom: 44px;
+  }
+
+  .readyKitchen__wrapper-text {
+    margin-bottom: 51px;
+  }
+
+  .readyKitchen__title {
+    font-size: 36px;
+    line-height: 43.57px;
+    margin-bottom: 14px;
+  }
+
+  .readyKitchen__slogan {
+    font-size: 16px;
+    line-height: 19.36px;
+  }
+
+  .readyKitchen__button {
+    width: 147px;
+    height: 47px;
+  }
+}
+
+@media (max-width: 430px) {
+   .readyKitchen__content{
+    padding: 14px 0 0 15px;
+    height: 671px;
+  background-size: cover;
+
+  }
+
+  .discount__button {
+    margin-bottom: 44px;
+    margin-bottom: 239px;
+  }
+  /* .readyKitchen__title {
+width: 334px;
+  } */
+  .readyKitchen__wrapper-text {
+    margin-bottom: 34px;
+  }
+  .readyKitchen__container .wrapper__carousel{
+    height: 750px;
+  }
+  .readyKitchen-cards{
+    flex-direction: column;
+    width: 100%;
+
+  }
+  .readyKitchen-card{
+    height: 233px;
+    margin: 0;
+    width: 100%;
+  }
+  .readyKitchen-card:not(:last-child){
+    margin: 0 0 20px;
+  }
+}
