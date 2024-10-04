@@ -1,18 +1,13 @@
-/* .hero__container{
-  height: 552px;
-
-} */
 .hero__content {
   max-width: 1320px;
-  height: 552px;
-  padding: 0;
+  min-height: 552px;
+  background-color: #000000;
   background-image: url(../img/png/heroBg.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 20px;
   color: var(--white);
-  padding-left: 45px;
-  padding-top: 116px;
+  padding: 116px 45px 10vw;
   border-radius: 10px;
 }
 
@@ -21,6 +16,7 @@
   font-size: 48px;
   line-height: 58.09px;
   text-transform: uppercase;
+  text-wrap: balance;
   margin-bottom: 16px;
 }
 
