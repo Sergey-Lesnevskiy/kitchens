@@ -1,11 +1,8 @@
 @media (max-width: 760px) {
   .hero__content {
     min-height: 358px;
-    /* нужно увеличить высоту , ломается вёрстка */
-    /* height: 358px; */
     max-width: 727px;
-    padding-left: 14px;
-    padding-top: 94px;
+    padding: 94px 14px 60px;
   }
 
   .hero__title {
