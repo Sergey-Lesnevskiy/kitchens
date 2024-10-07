@@ -45,24 +45,3 @@
   line-height: 19.36px;
   border-radius: 10px;
 }
-.carousel__card-creamy{
-background-color: var(--creamy);
-}
-.carousel__card-grey-sky{
-background-color: var(--grey-sky);
-}
-.carousel__card-creamy-beige{
-background-color: var(--creamy-beige);
-}
-.card__background-readyKitchen{
-  width: 388px;
-  bottom: -1px;
-  right: -49px;
-}
-.card__title-readyKitchen{
-  width: 241px;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 38.73px;
-  margin: 46px 0 0 28px;
-}

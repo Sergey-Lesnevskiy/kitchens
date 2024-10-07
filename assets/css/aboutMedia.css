@@ -1,0 +1,89 @@
+@media (max-width: 767px) {
+  .about__main {
+    position: relative;
+    flex-direction: column-reverse;
+  }
+
+  .about__main-img {
+    width: 100%;
+  }
+
+  .about__logo {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    max-width: 156px;
+  }
+
+  .about__wrapper-text {
+    width: 100%;
+    max-width: max-content;
+    height: 285px;
+    margin-bottom: 30px;
+  }
+
+  /* .about__tagline{
+  width: 100%;
+} */
+  .about__slogans-list {
+    flex-direction: column;
+  }
+
+  .about__slogan-item {
+    justify-content: start;
+    align-items: center;
+    /* max-width: max-content; */
+    /* width: 100%; */
+  }
+
+  .about__slogan-item:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid var(--gray-steel);
+    /* margin-bottom: 22px; */
+  }
+
+  .about__slogan-num {
+    margin-right: 21px;
+    position: relative;
+  }
+
+  .about-point {
+    position: absolute;
+    bottom: 14px;
+    right: -8px;
+
+  }
+
+  .about__slogan-description {
+    max-width: max-content;
+  }
+}
+
+@media (max-width: 430px) {
+  .about__logo {
+    position: static;
+    max-width:211px;
+  }
+  .about__wrapper-text {
+    height: 456px;
+}
+  .about__slogan-item{
+    height: 118px;
+  }
+  .about__slogan-num {
+    width: 88px;
+    height: 47px;
+  }
+
+  .about__slogan-title {
+    font-size: 20px;
+    line-height: 14.2px;
+  }
+
+  .about__slogan-description {
+    font-weight: 400;
+  }
+  .about-point {
+    bottom: 0px;
+  }
+}
