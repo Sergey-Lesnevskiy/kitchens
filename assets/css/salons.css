@@ -1,0 +1,163 @@
+.salons__title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48.41px;
+  margin-bottom: 34px;
+}
+
+.salons__map {
+  min-height: 417px;
+  margin-bottom: 107px;
+}
+
+.salons__entry {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 97px;
+}
+
+.salons__entry-text-wrap {
+  max-width: 458px;
+}
+
+.salons__entry-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48.41px;
+  margin-bottom: 17px;
+}
+
+.salons__entry-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.2px;
+}
+
+.form {
+  width: 57%;
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-data {
+  display: flex;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.text-field-name,
+.text-field-salons {
+  max-width: 364px;
+}
+
+.text-field-name {
+  width: 100%;
+  margin-right: 8px;
+}
+
+.text-field-phone {
+  max-width: 390px;
+  width: 100%;
+}
+
+.text-field-salons {
+  margin-bottom: 17px;
+}
+
+.text-field__label {
+  display: block;
+  margin-bottom: 9px;
+}
+
+.text-field__input {
+  display: block;
+  width: 100%;
+  height: 58px;
+  padding: 20px;
+  border: 1px solid var(--grey-foggy);
+  border-radius: 10px;
+}
+
+.salons__button {
+  margin-bottom: 17px;
+}
+
+.text-warning {
+  color: (--grey-dull-weak);
+}
+
+@media (max-width: 1100px) {
+  .salons__entry {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .salons__entry-text-wrap {
+    max-width: max-content;
+    margin-bottom: 60px;
+  }
+
+  .text-warning {
+    display: none;
+  }
+
+  .salons__title {
+    font-size: 36px;
+    line-height: 43.57px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 430px) {
+
+  .salons__entry {
+    margin-bottom: 43px;
+  }
+
+  .salons__title {
+    margin-bottom: 20px;
+  }
+
+  .personal-data {
+    flex-direction: column;
+  }
+
+  .salons__map {
+    max-width: 387px;
+    height: 414px;
+    margin-bottom: 56px;
+  }
+
+  .text-field-name,
+  .text-field-salons {
+    max-width: 100%;
+  }
+
+  .salons__entry-text-wrap {
+    margin-bottom: 41px;
+  }
+
+  .salons__entry-title {
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .salons__entry-description {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .text-field-name {
+    margin: 0 0 20px 0;
+  }
+
+  .text-warning {
+    display: block;
+    color: var(--grey-dull-weak)
+  }
+}

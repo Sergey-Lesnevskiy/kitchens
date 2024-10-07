@@ -1,70 +1,91 @@
-.aboutUs{
+.aboutUs {
   margin-bottom: 97px;
 }
-.aboutUs__title{
+
+.aboutUs__title {
   font-weight: 500;
   font-size: 40px;
   line-height: 48.41px;
   color: var(--black);
+  margin-bottom: 34px;
 }
-.aboutUs__main{
+
+.aboutUs__main {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 47px;
 }
-.aboutUs__main-img{
-  width: 40%;
+
+.aboutUs__main-img {
+  max-width: 571px;
+  height: 453px;
 }
-.aboutUs__logo{
-max-width: 383px;
+.aboutUs__wrapper-desc{
+  margin-right:50px;
 }
-.aboutUs__wrapper-text{
+.aboutUs__logo {
+  margin-left: -10px;
+  margin-top: -20px;
+margin-bottom: 10px;
+  max-width: 383px;
+  height: 123px;
+}
+
+.aboutUs__wrapper-text {
   display: flex;
   flex-direction: column;
   max-width: 592px;
   justify-content: space-between;
   height: 342px;
 }
-.aboutUs__tagline{
+
+.aboutUs__tagline {
   font-weight: 400;
 }
-.aboutUs__slogans-list{
+
+.aboutUs__slogans-list {
   display: flex;
   justify-content: space-between;
-/* flex-wrap: wrap; */
+  /* flex-wrap: wrap; */
   width: 100%;
 
 }
-.aboutUs__slogan-item{
+
+.aboutUs__slogan-item {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   height: 101px;
 }
-.aboutUs__slogan-item:not(:last-child){
+
+.aboutUs__slogan-item:not(:last-child) {
   border-right: 1px solid var(--gray-steel);
 }
-.aboutUs__slogan-num{
+
+.aboutUs__slogan-num {
   display: flex;
   align-items: center;
   font-weight: 900;
   font-size: 64px;
   line-height: 77.45px;
 }
-.point{
+
+.point {
   display: inline-block;
   width: 15px;
   height: 15px;
   border-radius: 50%;
   background-color: var(--black);
 }
-.aboutUs__slogan-title{
+
+.aboutUs__slogan-title {
   font-weight: 500;
   font-size: 24px;
   line-height: 29.05px;
   margin-bottom: 4px;
 }
-.aboutUs__slogan-description{
+
+.aboutUs__slogan-description {
   max-width: 272px;
 }

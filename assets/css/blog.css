@@ -15,20 +15,27 @@
   margin-bottom: 36px;
 }
 .blog__card{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
   max-width: 427px;
   height: 530px;
   background-color: var(--grey-light);
   padding: 12px 12px 23px 12px;
   border-radius: 20px;
 }
+.blog__card-img{
+  height: 395px;
+  width: 403px;
+margin-bottom: 17px;
+}
 .blog__card-date{
   font-weight: 400;
   font-size: 14px;
   line-height: 17.64px;
   color: var(--grey-stone);
+margin-bottom: 17px;
+
 }
 .blog__card-desc{
   font-weight: 500;

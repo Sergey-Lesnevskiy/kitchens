@@ -115,7 +115,9 @@
   color: var(--white);
   margin-right: 16px;
 }
-
+.header__button-menu:hover{
+  cursor: pointer;
+}
 .img-button {
   width: 14px;
   height: 14px;

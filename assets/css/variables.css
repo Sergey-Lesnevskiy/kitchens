@@ -4,6 +4,7 @@
   --grey-light: rgba(246, 246, 246, 1);
   --grey: rgba(244, 245, 246, 1);
   --grey-sky: rgba(236, 239, 245, 1);
+  --grey-foggy: rgba(221, 221, 221, 1);
   --grey-mountains: rgba(218, 218, 218, 1);
   --grey-dark: rgba(207, 207, 207, 1);
   --gray-silver: rgba(202, 202, 202, 1);
@@ -12,11 +13,13 @@
   --grey-blue: rgba(164, 164, 164, 1);
   --grey-medium: rgba(143, 143, 143, 1);
   --grey-dull: rgba(139, 139, 139, 1);
+  --grey-dull-weak: rgba(138, 138, 138, 1);
   --grey-stone: rgba(137, 137, 137, 1);
   --gray-charcoal: rgba(96, 96, 96, 1);
   --black-oil: rgba(83, 83, 83, 1);
   --black-light: rgba(86, 86, 86, 1);
   --black: rgba(35, 35, 35, 1);
+  --black-coal: rgba(3, 3, 3, 1);
   --red: rgba(203, 10, 10, 1);
   --red-dark:  rgba(169, 24, 24, 1);
   --creamy:  rgba(240, 236, 231, 1);

@@ -1,35 +1,45 @@
-/* .hero__container{
-  height: 552px;
-
-} */
+.hero {
+  margin-bottom: 94px;
+}
 .hero__content {
+  position: relative;
   max-width: 1320px;
-  height: 552px;
-  padding: 0;
-  background-image: url(../img/png/heroBg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 552px;
+  background-color: var(--black);
   margin-bottom: 20px;
   color: var(--white);
-  padding-left: 45px;
-  padding-top: 116px;
-  border-radius: 10px;
+  padding: 116px 45px 10vw;
+  border-radius: 20px;
+}
+
+.hero__img-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .hero__title {
+  position: relative;
   font-weight: 500;
   font-size: 48px;
   line-height: 58.09px;
   text-transform: uppercase;
+  text-wrap: balance;
   margin-bottom: 16px;
+  z-index: 2;
+
 }
 
 .hero__service-list {
+  position: relative;
   font-weight: 400;
   font-size: 20px;
   line-height: 24.2px;
   letter-spacing: -1%;
   margin-bottom: 59px;
+  z-index: 2;
+
 }
 
 .hero__service-item::before {
@@ -40,6 +50,7 @@
 }
 
 .hero__button {
+  position: relative;
   width: 219px;
   height: 57px;
   color: var(--white);
@@ -47,6 +58,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 19.36px;
+  z-index: 2;
 }
 
 .wrapper__carousel {
@@ -80,12 +92,13 @@
 }
 
 .wrapper__text {
-  width: 135px;
+  width: fit-content;
   height: 36px;
-  display: grid;
-  place-items: center;
+  /* display: grid;
+  place-items: center; */
   background-color: var(--white);
   border-radius: 10px;
+  padding: 10px 9px 13px;
   margin-left: 9px;
 }
 
@@ -112,5 +125,4 @@
   width: 388px;
   bottom: -1px;
   right: -49px;
-
 }
