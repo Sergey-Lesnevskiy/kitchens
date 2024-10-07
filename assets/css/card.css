@@ -133,18 +133,6 @@
   line-height: normal;
 }
 
-.card__button {
-  /* сброс. нужно отрефакторить общий класс кнопки */
-  margin: 0;
-  height: auto;
-
-  width: auto;
-  margin-top: 14px;
-  padding: 1rem;
-  color: var(--white);
-  background-color: var(--red);
-}
-
 .card__details-list {
   display: grid;
   grid-template-columns: repeat(4, auto);

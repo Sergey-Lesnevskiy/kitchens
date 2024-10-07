@@ -10,8 +10,8 @@
 @import './assets/css/workExampleMedia.css';
 @import './assets/css/readyKitchen.css';
 @import './assets/css/readyKitchenMedia.css';
-@import './assets/css/aboutUs.css';
-@import './assets/css/aboutUsMedia.css';
+@import './assets/css/about.css';
+@import './assets/css/aboutMedia.css';
 @import './assets/css/blog.css';
 @import './assets/css/blogMedia.css';
 @import './assets/css/menu.css';
@@ -20,3 +20,4 @@
 @import './assets/css/footerMedia.css';
 @import './assets/css/card.css';
 @import './assets/css/cardMedia.css';
+@import './assets/css/carousel.css';

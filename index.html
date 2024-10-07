@@ -11,7 +11,7 @@
 <body>
   <header class="header">
     <div class="header__menu">
-      <div class="container header__container-menu">
+      <div class="header__menu-container container">
         <div class="wrapper-location-nav">
           <div class="header__menu-location">
             <img src="./assets/img/svg/mingcute_location-fill.svg" class="img-location" alt="location">
@@ -52,25 +52,25 @@
       </div>
     </div>
     <div class="header__main">
-      <div class="container header__container-main">
+      <div class="header__main-container container">
         <div class="header__main-search-content">
-          <img src="./assets/img/png/logo.png" alt="logo" class="img-logo">
-          <button class="button header__button-menu">
-            <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" class="img-button">
+          <img class="header__logo" src="./assets/img/png/logo.png" alt="logo" >
+          <button class="header__button-menu button button--black">
+            <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" class="img-button" fill="currentColor">
               <path
                 d="M0 2C0 0.895428 0.895431 0 2 0H4.22222C5.32679 0 6.22222 0.895431 6.22222 2V6.22222H2C0.895428 6.22222 0 5.32679 0 4.22222V2Z"
-                fill="white" />
+                 />
               <path
                 d="M7.77783 2C7.77783 0.895428 8.67326 0 9.77783 0H12.0001C13.1046 0 14.0001 0.895431 14.0001 2V4.22222C14.0001 5.32679 13.1046 6.22222 12.0001 6.22222H7.77783V2Z"
-                fill="white" />
+                 />
               <path
                 d="M7.77783 7.77832H12.0001C13.1046 7.77832 14.0001 8.67375 14.0001 9.77832V12.0005C14.0001 13.1051 13.1046 14.0005 12.0001 14.0005H9.77783C8.67326 14.0005 7.77783 13.1051 7.77783 12.0005V7.77832Z"
-                fill="white" />
+                 />
               <path
                 d="M0 9.77832C0 8.67375 0.895431 7.77832 2 7.77832H6.22222V12.0005C6.22222 13.1051 5.32679 14.0005 4.22222 14.0005H2C0.895428 14.0005 0 13.1051 0 12.0005V9.77832Z"
-                fill="white" />
+                 />
             </svg>
-            <span class="button-text">Меню</span>
+            Меню
           </button>
           <input type="text" class="input input-header" placeholder="Что будем искать?">
           <div class="wrapper_iconSearch">
@@ -78,17 +78,17 @@
           </div>
         </div>
         <div class="header__main-supportive-content">
-          <button class="button button-favorites">
+          <a class="header__favorites" href="/">
             <div class="wrapper-img-heart">
-              <img src="./assets/img/svg/heart-light.svg" class="img-heart" alt="icon heart">
+              <img src="./assets/img/svg/heart-light.svg" class="img-heart" alt="">
             </div>
-            <p class="button-text">Избранное</p>
-          </button>
-          <button class="button header__button-consultation"><img src="./assets/img/svg/round-chat.svg" class="img-chat"
-              alt="icon chat">
-            <span class="button-text">
+            Избранное
+          </a>
+          <button class="button button--outline">
+            <svg class="img-chat" width="18" height="18" viewBox="0 0 18 18" fill="#CB0A0A" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 1.5H3C2.175 1.5 1.5075 2.175 1.5075 3L1.5 16.5L4.5 13.5H15C15.825 13.5 16.5 12.825 16.5 12V3C16.5 2.175 15.825 1.5 15 1.5ZM5.25 6.75H12.75C13.1625 6.75 13.5 7.0875 13.5 7.5C13.5 7.9125 13.1625 8.25 12.75 8.25H5.25C4.8375 8.25 4.5 7.9125 4.5 7.5C4.5 7.0875 4.8375 6.75 5.25 6.75ZM9.75 10.5H5.25C4.8375 10.5 4.5 10.1625 4.5 9.75C4.5 9.3375 4.8375 9 5.25 9H9.75C10.1625 9 10.5 9.3375 10.5 9.75C10.5 10.1625 10.1625 10.5 9.75 10.5ZM12.75 6H5.25C4.8375 6 4.5 5.6625 4.5 5.25C4.5 4.8375 4.8375 4.5 5.25 4.5H12.75C13.1625 4.5 13.5 4.8375 13.5 5.25C13.5 5.6625 13.1625 6 12.75 6Z"/>
+              </svg>
               Консультация
-            </span>
           </button>
         </div>
       </div>
@@ -108,102 +108,104 @@
           </ul>
           <button class="button hero__button">Перейти в каталог</button>
         </div>
-        <div class="wrapper__carousel">
-          <ul class="carousel__cards">
-            <li class="carousel__card">
-              <div class="wrapper__text">
-                <img src="./assets/img/png/sideKitchen.png" class="card__background card__background-sideKitchen"
-                  alt="img side kitchen">
-                <p class="card__title">Каталог кухонь</p>
-              </div>
-              <button class="button card__button"><img src="./assets/img/svg/Arrow.svg" class="img-icon"
-                  alt="icon arrow"></button>
+        <div class="carousel">
+          <ul class="carousel__categories">
+            <li class="category">
+              <span class="category__title">Каталог кухонь</span>
+              <img class="category__image" src="./assets/img/png/sideKitchen.png" alt="">
+              <button class="category__button button button--black button--icon">
+                <svg width="12" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z"/>
+                  </svg>
+              </button>
             </li>
-            <li class="carousel__card">
-              <img src="./assets/img/png/chair.png" class="card__background" alt="img chair">
-              <div class="wrapper__text">
-                <p class="card__title">Мебель для дома</p>
-              </div>
-              <button class="button card__button"><img src="./assets/img/svg/Arrow.svg" class="img-icon"
-                  alt="icon arrow"></button>
+            <li class="category">
+              <span class="category__title">Мебель для дома</span>
+              <img class="category__image" src="./assets/img/png/chair.png" alt="">
+              <button class="category__button button button--black button--icon">
+                <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z"/>
+                  </svg>
+              </button>
             </li>
-            <li class="carousel__card">
-              <img src="./assets/img/png/doors.png" class="card__background" alt="img doors">
-              <div class="wrapper__text">
-                <p class="card__title">Материалы и комплектующие</p>
-              </div>
-              <button class="button card__button"><img src="./assets/img/svg/Arrow.svg" class="img-icon"
-                  alt="icon arrow"></button>
+            <li class="category">
+              <span class="category__title">Материалы и комплектующие</span>
+              <img class="category__image" src="./assets/img/png/doors.png" alt="">
+              <button class="category__button button button--black button--icon">
+                <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z"/>
+                  </svg>
+              </button>
             </li>
           </ul>
         </div>
       </div>
     </section>
-    <section class="workExamples">
-      <div class="container workExamples__container">
-        <h2 class="workExamples__title">Примеры наших работ</h2>
+    <section class="work-examples">
+      <div class="work-examples__container container">
+        <h2 class="work-examples__title">Примеры наших работ</h2>
         <div class="wrapper__carousel-work">
-          <ul class="workExamples__cards">
-            <li class="workExamples__card">
-              <img src="./assets/img/png/whiteKitchen.png" class="workExamples__card-img" alt="white kitchen">
-              <p class="workExamples__card-description">Кухня с белыми рифлёными фасадами</p>
-              <div class="workExamples__card-pricing">
+          <ul class="work-examples__cards">
+            <li class="work-examples__card">
+              <img src="./assets/img/png/whiteKitchen.png" class="work-examples__card-img" alt="white kitchen">
+              <p class="work-examples__card-description">Кухня с белыми рифлёными фасадами</p>
+              <div class="work-examples__card-pricing">
                 <div class="cost__block">
                   <p class="cost__block-desc">Цена</p>
                   <p class="cost__block-text">от <span class="cost__block-number">665 180</span> руб.</p>
                 </div>
-                <div class="workExamples__card-buttons">
-                  <button class="button workExamples__calculate">Расчет стоимости</button>
-                  <button class="button workExamples__order">Заказать</button>
+                <div class="work-examples__card-buttons">
+                  <button class="button button--black">Расчет стоимости</button>
+                  <button class="button button--outline">Заказать</button>
                 </div>
               </div>
             </li>
-            <li class="workExamples__card">
-              <img src="./assets/img/png/whiteKitchen.png" class="workExamples__card-img" alt="white kitchen">
-              <p class="workExamples__card-description">Кухня с белыми рифлёными фасадами</p>
-              <div class="workExamples__card-pricing">
+            <li class="work-examples__card">
+              <img src="./assets/img/png/whiteKitchen.png" class="work-examples__card-img" alt="white kitchen">
+              <p class="work-examples__card-description">Кухня с белыми рифлёными фасадами</p>
+              <div class="work-examples__card-pricing">
                 <div class="cost__block">
                   <p class="cost__block-desc">Цена</p>
                   <p class="cost__block-text">от <span class="cost__block-number">665 180</span> руб.</p>
                 </div>
-                <div class="workExamples__card-buttons">
-                  <button class="button workExamples__calculate">Расчет стоимости</button>
-                  <button class="button workExamples__order">Заказать</button>
+                <div class="work-examples__card-buttons">
+                  <button class="button button--black">Расчет стоимости</button>
+                  <button class="button button--outline">Заказать</button>
                 </div>
               </div>
             </li>
-            <li class="workExamples__card">
-              <img src="./assets/img/png/whiteKitchen.png" class="workExamples__card-img" alt="white kitchen">
-              <p class="workExamples__card-description">Кухня с белыми рифлёными фасадами</p>
-              <div class="workExamples__card-pricing">
+            <li class="work-examples__card">
+              <img src="./assets/img/png/whiteKitchen.png" class="work-examples__card-img" alt="white kitchen">
+              <p class="work-examples__card-description">Кухня с белыми рифлёными фасадами</p>
+              <div class="work-examples__card-pricing">
                 <div class="cost__block">
                   <p class="cost__block-desc">Цена</p>
                   <p class="cost__block-text">от <span class="cost__block-number">665 180</span> руб.</p>
                 </div>
-                <div class="workExamples__card-buttons">
-                  <button class="button workExamples__calculate">Расчет стоимости</button>
-                  <button class="button workExamples__order">Заказать</button>
+                <div class="work-examples__card-buttons">
+                  <button class="button button--black">Расчет стоимости</button>
+                  <button class="button button--outline">Заказать</button>
                 </div>
               </div>
             </li>
-            <li class="workExamples__card">
-              <img src="./assets/img/png/whiteKitchen.png" class="workExamples__card-img" alt="white kitchen">
-              <p class="workExamples__card-description">Кухня с белыми рифлёными фасадами</p>
-              <div class="workExamples__card-pricing">
+            <li class="work-examples__card">
+              <img src="./assets/img/png/whiteKitchen.png" class="work-examples__card-img" alt="white kitchen">
+              <p class="work-examples__card-description">Кухня с белыми рифлёными фасадами</p>
+              <div class="work-examples__card-pricing">
                 <div class="cost__block">
                   <p class="cost__block-desc">Цена</p>
                   <p class="cost__block-text">от <span class="cost__block-number">665 180</span> руб.</p>
                 </div>
-                <div class="workExamples__card-buttons">
-                  <button class="button workExamples__calculate">Расчет стоимости</button>
-                  <button class="button workExamples__order">Заказать</button>
+                <div class="work-examples__card-buttons">
+                  <button class="button button--black">Расчет стоимости</button>
+                  <button class="button button--outline">Заказать</button>
                 </div>
               </div>
             </li>
           </ul>
         </div>
 
-        <button class="button workExamples__button">Показать еще</button>
+        <button class="work-examples__button button">Показать еще</button>
       </div>
     </section>
     <section class="readyKitchen">
@@ -219,98 +221,93 @@
           </div>
           <button class="button readyKitchen__button">Подробнее</button>
         </div>
-        <div class="wrapper__carousel">
-          <ul class="carousel__cards readyKitchen-cards">
-            <li class="carousel__card readyKitchen-card carousel__card-creamy ">
-              <img src="./assets/img/png/goldDrops.png" class="card__background card__background-readyKitchen"
-                alt="gold drops">
-              <p class="card__title-readyKitchen">Рассрочка и кредит</p>
-              <button class="button card__button"><img src="./assets/img/svg/Arrow.svg" class="img-icon"
-                  alt="icon arrow"></button>
+        <div class="carousel">
+          <ul class="carousel__categories">
+            <li class="category category--creamy ">
+              <span class="category__title category__title--big">Рассрочка и кредит</span>
+              <img class="category__image" src="./assets/img/png/goldDrops.png" alt="">
+              <button class="category__button button button--black button--icon">
+                <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z"/>
+                  </svg>
+              </button>
             </li>
-            <li class="carousel__card readyKitchen-card carousel__card-grey-sky">
-              <img src="./assets/img/png/cornerKitchen.png" class="card__background card__background-readyKitchen"
-                alt="corner kitchen">
-              <p class="card__title-readyKitchen">Бесплатный 3D-проект </p>
-              <button class="button card__button"><img src="./assets/img/svg/Arrow.svg" class="img-icon"
-                  alt="icon arrow"></button>
+            <li class="category category--grey-sky">
+              <span class="category__title category__title--big">Бесплатный 3D-проект </span>
+              <img class="category__image" src="./assets/img/png/cornerKitchen.png" alt="">
+              <button class="category__button button button--black button--icon">
+                <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z"/>
+                  </svg>
+              </button>
             </li>
-            <li class="carousel__card readyKitchen-card carousel__card-creamy-beige">
-              <img src="./assets/img/png/present.png" class="card__background card__background-readyKitchen"
-                alt="present">
-              <p class="card__title-readyKitchen">Подарки
-                клиентам</p>
-              <button class="button card__button"><img src="./assets/img/svg/Arrow.svg" class="img-icon"
-                  alt="icon arrow"></button>
+            <li class="category category--creamy-beige">
+              <span class="category__title category__title--big">Подарки клиентам</span>
+              <img src="./assets/img/png/present.png" alt="">
+              <button class="category__button button button--black button--icon">
+                <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z"/>
+                  </svg>
+              </button>
             </li>
           </ul>
         </div>
       </div>
     </section>
-    <section class="aboutUs">
-      <div class="container aboutUs__container">
-        <h4 class="aboutUs__title">
+    <section class="about">
+      <div class="about__container container">
+        <h4 class="about__title">
           О нас
         </h4>
-        <div class="aboutUs__main">
-          <img src="./assets/img/png/shelves.png" class="aboutUs__main-img" alt="shelves">
-          <div class="aboutUs__wrapper-desc">
-            <img src="./assets/img/png/logo2.png" class="aboutUs__logo" alt="logo">
-            <div class="aboutUs__wrapper-text">
-              <p class="aboutUs__tagline">Мы рады видеть Вас на нашем сайте. Хотим рассказать Вам немного про нашу
+        <div class="about__main">
+          <img src="./assets/img/png/shelves.png" class="about__main-img" alt="shelves">
+          <div class="about__wrapper-desc">
+            <img src="./assets/img/png/logo2.png" class="about__logo" alt="logo">
+            <div class="about__wrapper-text">
+              <p class="about__tagline">Мы рады видеть Вас на нашем сайте. Хотим рассказать Вам немного про нашу
                 компанию.</p>
-              <p class="aboutUs__tagline">Мы официальный представитель белорусских фабрик
+              <p class="about__tagline">Мы официальный представитель белорусских фабрик
                 «Elegrum»,»Pan-Fasad»,»ЗОВ-Древ»,
                 «Термопрофиль»,»ЗОВ-фасад»,»ЗОВ-Спектр».</p>
-              <p class="aboutUs__tagline">Кухни на заказ Беларуси уже стал брендом сами по себе, ведь всем понятны
+              <p class="about__tagline">Кухни на заказ Беларуси уже стал брендом сами по себе, ведь всем понятны
                 преимущества: цена —
                 доступная, качество — высокое. Тому доказательство — отзывы наших покупателей, которые говорят: «Ваши
                 кухни выглядят намного дороже, чем стоят!».</p>
-              <p class="aboutUs__tagline">Мы уверены в фабриках, с которыми работаем, и за такое продолжительное время
+              <p class="about__tagline">Мы уверены в фабриках, с которыми работаем, и за такое продолжительное время
                 стали настоящими фанатами
                 своего дела.</p>
-              <p class="aboutUs__tagline">
+              <p class="about__tagline">
                 Миссия команды «BELONI» — дать каждому возможность покупать по-настоящему качественные вещи! Мы всегда
                 будем ответственны за ход исполнения Вашего заказа и останемся для Вас друзьями даже после окончания
                 гарантийного срока:)</p>
             </div>
           </div>
         </div>
-        <ul class="aboutUs__slogans-list">
-          <li class="aboutUs__slogan-item aboutUs__slogan">
-            <div class="aboutUs__slogan-num">01<span class="point aboutUs-point"></span></div>
-            <div class="aboutUs__slogan-wrapper-text">
-              <div class="aboutUs__slogan-title">
-                Качественные материалы
-              </div>
-              <div class="aboutUs__slogan-description">
-                Надежные европейские материалы и качественная фирменная фурнитура(Blum, Hettich, Vibo, SCHŰCO, Boyard,
-                GTV)
-              </div>
+        <ul class="about__slogans-list">
+          <li class="about__slogan-item">
+            <div class="about__slogan-title">
+              Качественные материалы
+            </div>
+            <div class="about__slogan-description">
+              Надежные европейские материалы и качественная фирменная фурнитура(Blum, Hettich, Vibo, SCHŰCO, Boyard,
+              GTV)
             </div>
           </li>
-          <li class="aboutUs__slogan-item aboutUs__slogan">
-            <div class="aboutUs__slogan-num">01<span class="point aboutUs-point"></span></div>
-            <div class="aboutUs__slogan-wrapper-text">
-              <div class="aboutUs__slogan-title">
-                Качественные материалы
-              </div>
-              <div class="aboutUs__slogan-description">
-                Надежные европейские материалы и качественная фирменная фурнитура(Blum, Hettich, Vibo, SCHŰCO, Boyard,
-                GTV)
-              </div>
+          <li class="about__slogan-item">
+            <div class="about__slogan-title">
+              Гарантия
+            </div>
+            <div class="about__slogan-description">
+              Даем гарантию на изделия и работу до 10 лет
             </div>
           </li>
-          <li class="aboutUs__slogan-item aboutUs__slogan">
-            <div class="aboutUs__slogan-num">01<span class="point aboutUs-point"></span></div>
-            <div class="aboutUs__slogan-wrapper-text">
-              <div class="aboutUs__slogan-title">
-                Качественные материалы
-              </div>
-              <div class="aboutUs__slogan-description">
-                Надежные европейские материалы и качественная фирменная фурнитура(Blum, Hettich, Vibo, SCHŰCO, Boyard,
-                GTV)
-              </div>
+          <li class="about__slogan-item">
+            <div class="about__slogan-title">
+              Качественные материалы
+            </div>
+            <div class="about__slogan-description">
+              Надежные европейские материалы и качественная фирменная фурнитура(Blum, Hettich, Vibo, SCHŰCO, Boyard,
+              GTV)
             </div>
           </li>
         </ul>
@@ -346,7 +343,7 @@
     <div class="container footer__container">
       <div class="footer__main-grid">
         <div class="footer__logo logo">
-          <img src="./assets/img/png/logoFooter.png" alt="logo" class="img-logo footer__logo-img">
+          <img src="./assets/img/png/logoFooter.png" alt="logo" class="headr__logo footer__logo-img">
         </div>
         <p class="footer__recommendation-text">Подписывайтесь на наши обновления
         </p>
