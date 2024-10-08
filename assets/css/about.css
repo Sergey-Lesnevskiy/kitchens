@@ -1,42 +1,37 @@
-.about{
-  margin-bottom: 97px;
-}
-
-.about__title{
+.about__title {
+  margin-bottom: 36px;
   font-weight: 500;
   font-size: 40px;
-  line-height: 48.41px;
+  line-height: 48px;
   color: var(--black);
 }
 
-.about__main{
+.about__main {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  margin-bottom: 47px;
+  gap: 5rem;
+  margin-bottom: 48px;
 }
 
-.about__main-img{
-  width: 40%;
+.about__image {
+  width: 45%;
+  flex-shrink: 0;
+  object-fit: contain;
+  border-radius: 10px;
 }
 
-.about__logo{
-max-width: 383px;
+.about__logo {
+  max-height: 120px;
 }
 
-.about__wrapper-text{
-  display: flex;
-  flex-direction: column;
-  max-width: 592px;
-  justify-content: space-between;
-  height: 342px;
-}
-
-.about__tagline{
+.about__tagline {
+  margin-top: 24px;
   font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
 
-.about__slogans-list{
+.about__slogans-list {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -49,7 +44,7 @@ max-width: 383px;
   padding-left: 134px;
 }
 
-.about__slogan-item:not(:last-child){
+.about__slogan-item:not(:last-child) {
   border-right: 1px solid var(--gray-steel);
 }
 
@@ -68,13 +63,13 @@ max-width: 383px;
   left: 0;
 }
 
-.about__slogan-title{
+.about__slogan-title {
   font-weight: 500;
   font-size: 24px;
-  line-height: 29.05px;
+  line-height: 28px;
   margin-bottom: 4px;
 }
 
-.about__slogan-description{
+.about__slogan-description {
   max-width: 272px;
 }

@@ -1,7 +1,3 @@
-.work-examples {
-  margin-bottom: 76px;
-}
-
 .work-examples__container {
   display: flex;
   flex-direction: column;
@@ -61,18 +57,21 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .work-examples__card-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+  margin-left: auto;
 }
 
 .cost__block-desc {
   font-weight: 400;
   font-size: 14px;
   line-height: 16.94px;
+  color: var(--gray-charcoal);
 }
 
 .cost__block-text {

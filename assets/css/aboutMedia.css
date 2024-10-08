@@ -1,11 +1,29 @@
+@media (max-width: 1024px) {
+  .about__slogan-item {
+    padding-left: 82px;
+  }
+
+  .about__slogan-item::before {
+    left: 0.5rem;
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 767px) {
+  .about__title {
+    margin-bottom: 0;
+  }
+
   .about__main {
     position: relative;
     flex-direction: column-reverse;
+    gap: 2rem;
   }
 
-  .about__main-img {
+  .about__image {
     width: 100%;
+    max-height: 346px;
+    object-fit: cover;
   }
 
   .about__logo {
@@ -15,16 +33,6 @@
     max-width: 156px;
   }
 
-  .about__wrapper-text {
-    width: 100%;
-    max-width: max-content;
-    height: 285px;
-    margin-bottom: 30px;
-  }
-
-  /* .about__tagline{
-  width: 100%;
-} */
   .about__slogans-list {
     flex-direction: column;
   }
@@ -32,26 +40,21 @@
   .about__slogan-item {
     justify-content: start;
     align-items: center;
-    /* max-width: max-content; */
-    /* width: 100%; */
+    padding-block: 30px;
   }
 
   .about__slogan-item:not(:last-child) {
     border-right: none;
     border-bottom: 1px solid var(--gray-steel);
-    /* margin-bottom: 22px; */
   }
 
-  .about__slogan-num {
-    margin-right: 21px;
-    position: relative;
+  .about__slogan-item {
+    padding-left: 134px;
   }
 
-  .about-point {
-    position: absolute;
-    bottom: 14px;
-    right: -8px;
-
+  .about__slogan-item::before {
+    left: 1rem;
+    font-size: 64px;
   }
 
   .about__slogan-description {
@@ -62,28 +65,15 @@
 @media (max-width: 430px) {
   .about__logo {
     position: static;
-    max-width:211px;
-  }
-  .about__wrapper-text {
-    height: 456px;
-}
-  .about__slogan-item{
-    height: 118px;
-  }
-  .about__slogan-num {
-    width: 88px;
-    height: 47px;
+    max-width:210px;
   }
 
   .about__slogan-title {
     font-size: 20px;
-    line-height: 14.2px;
+    line-height: 14px;
   }
 
   .about__slogan-description {
     font-weight: 400;
-  }
-  .about-point {
-    bottom: 0px;
   }
 }

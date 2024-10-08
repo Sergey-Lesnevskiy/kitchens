@@ -8,8 +8,8 @@
 @import './assets/css/heroMedia.css';
 @import './assets/css/workExample.css';
 @import './assets/css/workExampleMedia.css';
-@import './assets/css/readyKitchen.css';
-@import './assets/css/readyKitchenMedia.css';
+@import './assets/css/ready-kitchen.css';
+@import './assets/css/ready-kitchenMedia.css';
 @import './assets/css/about.css';
 @import './assets/css/aboutMedia.css';
 @import './assets/css/blog.css';
@@ -21,3 +21,4 @@
 @import './assets/css/card.css';
 @import './assets/css/cardMedia.css';
 @import './assets/css/carousel.css';
+@import './assets/css/carouselMedia.css';

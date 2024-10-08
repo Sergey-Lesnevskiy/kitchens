@@ -1,0 +1,57 @@
+@media (max-width: 767px) {
+  .ready-kitchen__content {
+    padding: 12px;
+  }
+
+  .ready-kitchen__title {
+    margin-top: 44px;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 14px;
+  }
+
+  .ready-kitchen__slogan {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .ready-kitchen__button {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 430px) {
+  .ready-kitchen__content {
+    padding: 14px 0 0 15px;
+    height: 671px;
+    background-size: cover;
+  }
+
+  .ready-kitchen__title {
+    margin-top: 240px;
+  }
+
+  .ready-kitchen__button {
+    margin-top: 34px;
+  }
+
+  .ready-kitchen__container .wrapper__carousel {
+    height: 750px;
+  }
+
+  .ready-kitchen-cards {
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  .ready-kitchen-card {
+    height: 233px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .ready-kitchen-card:not(:last-child) {
+    margin: 0 0 20px;
+  }
+}

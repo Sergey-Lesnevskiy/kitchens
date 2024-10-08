@@ -51,6 +51,14 @@ p {
   margin: 0;
 }
 
+section:not(:first-of-type) {
+  padding-top: 96px;
+}
+
+section:last-of-type {
+  padding-bottom: 96px;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1360px;
@@ -83,12 +91,21 @@ p {
 }
 
 .button--black {
-  background-color: var(--black);
   color: var(--white);
+  background-color: var(--black);
 }
 
 .button--black:hover {
   background-color: var(--black-light);
+}
+
+.button--white {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.button--white:hover {
+  background-color: var(--grey-sky);
 }
 
 .button--outline {
@@ -99,10 +116,4 @@ p {
 
 .button--outline:hover {
   background-color: var(--grey-sky);
-}
-
-@media (max-width: 767px) {
-  .container {
-    max-width: 767px;
-  }
 }
