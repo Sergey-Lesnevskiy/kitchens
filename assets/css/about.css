@@ -14,12 +14,14 @@
 }
 
 .about__image {
-  width: 45%;
+  max-width: 571px;
   flex-shrink: 0;
   object-fit: contain;
   border-radius: 10px;
 }
-
+.about__info{
+  margin-right: 100px;
+}
 .about__logo {
   max-height: 120px;
 }

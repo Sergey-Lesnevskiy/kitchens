@@ -1,3 +1,10 @@
+.header{
+  position: relative;
+  z-index: 4;
+}
+.header__menu-burger{
+  display: none;
+}
 .header__menu {
   height: 43px;
   width: 100%;
@@ -7,7 +14,7 @@
   display: none;
 }
 .header__menu-container {
-  height: 43px;
+  min-height: 43px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -78,7 +85,7 @@
 
 /* header-main */
 .header__main {
-  height: 76px;
+  min-height: 76px;
   position: relative;
 }
 
@@ -86,6 +93,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: var(--white);
 }
 
 .header__main-search-content {

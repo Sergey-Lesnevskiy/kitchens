@@ -6,6 +6,14 @@
     z-index: 3;
   }
 
+  /* .menu__revert {
+   display: none;
+  }
+  .menu__revert.active{
+    display: block;
+    width: 21px;
+    margin-bottom: 24px;
+  } */
   .menu__section {
     display: none;
   }
@@ -15,7 +23,9 @@
   .button.button__section-menu {
     display: none;
   }
-
+  /* .triangle-down{
+    display: none;
+  } */
   .menu__section-list{
     flex-direction: column;
   }

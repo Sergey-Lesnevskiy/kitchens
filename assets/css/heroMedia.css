@@ -49,12 +49,12 @@
     bottom: -60px;
     left: 0;
     width: 100%;
-    background-color: var(--black);
+    /* background-color: var(--black); */
   }
 
-  .hero__button:hover {
+  /* .hero__button:hover {
     background-color: var(--black-light);
-  }
+  } */
 
   .carousel__card {
     width: 361px;

@@ -14,10 +14,12 @@
 @import './assets/css/aboutMedia.css';
 @import './assets/css/blog.css';
 @import './assets/css/blogMedia.css';
-@import './assets/css/menu.css';
-@import './assets/css/menuMedia.css';
+@import './assets/css/salons.css';
 @import './assets/css/footer.css';
 @import './assets/css/footerMedia.css';
+@import './assets/css/menu.css';
+@import './assets/css/menuMedia.css';
+@import './assets/css/popup.css';
 @import './assets/css/product.css';
 @import './assets/css/productMedia.css';
 @import './assets/css/carousel.css';
