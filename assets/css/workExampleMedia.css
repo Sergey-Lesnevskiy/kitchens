@@ -1,4 +1,4 @@
-@media (max-width: 760px) {
+@media (max-width: 1100px) {
   .work-examples__cards {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, auto);
@@ -14,27 +14,9 @@
     margin-bottom: 30px;
   }
 
-  /* .work-examples__card::after {
-    content: '';
-    width: 33px;
-    height: 33px;
-    background: url(../img/svg/Arrow.svg) 10px 7px;
-    background-repeat: no-repeat;
-    background-color: var(--black);
-    position: absolute;
-    padding: 10;
-    right: 11px;
-    bottom: 11px;
-    border-radius: 10px;
-  } */
-
   .work-examples__card:nth-child(2n+1) {
     display: none;
   }
-
-  /* .work-examples__card-buttons {
-    display: none;
-  } */
 
   .work-examples__button {
     align-self: center;

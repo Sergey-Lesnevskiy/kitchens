@@ -14,7 +14,6 @@
 .salons__entry {
   display: flex;
   justify-content: space-between;
-  /* margin-bottom: 97px; */
 }
 
 .salons__entry-text-wrap {

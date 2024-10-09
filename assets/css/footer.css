@@ -35,7 +35,6 @@
 
 .wrapper__input-group {
   display: flex;
-  /* margin-bottom: 47px; */
   grid-row-start: 3;
   grid-row-end: 4;
 }

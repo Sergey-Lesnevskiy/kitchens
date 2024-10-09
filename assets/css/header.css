@@ -83,7 +83,6 @@
   line-height: 16.94px;
 }
 
-/* header-main */
 .header__main {
   min-height: 76px;
   position: relative;
@@ -121,11 +120,6 @@
   height: 14px;
   margin-right: 7px;
 }
-
-/* .button-text {
-  font-size: 16px;
-  line-height: 19.36px;
-} */
 
 .input {
   height: 48px;
