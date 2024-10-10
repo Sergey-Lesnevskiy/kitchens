@@ -1,3 +1,7 @@
+
+.blog:not(:first-of-type) {
+  padding-top: 99px;
+}
 .blog__container{
   display: flex;
   flex-direction: column;
@@ -7,7 +11,7 @@
   font-size: 40px;
   line-height: 48.41px;
   color: var(--black);
-  margin-bottom: 34px;
+  margin-bottom: 22px;
 }
 .blog__cards{
   display: flex;

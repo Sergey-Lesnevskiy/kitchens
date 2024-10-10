@@ -6,40 +6,44 @@
   .footer__main-grid {
     height: 551px;
     grid-template-columns: 1fr 200px 1fr;
-    grid-template-rows: 40px 35% 40px 60px 1fr;
+    grid-template-rows: 80px 31% 40px 60px 1fr;
     gap: 10px;
     row-gap: 20px;
   }
 
   .footer__logo {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 2;
   }
 
   .footer__social-links {
     grid-column-start: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    justify-self: end;
-    align-self: center;
+          justify-self: end;
+          align-self: start;
     flex-wrap: wrap;
+    padding: 0;
   }
 
   .footer__menu-list-basic {
     grid-column-start: 1;
     grid-row-start: 2;
     grid-row-end: 3;
+    justify-self: start;
   }
 
   .footer__menu-list-auxiliary {
     grid-column-start: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+    justify-self: start;
+    padding-left: 0;
   }
 
   .footer__recommendation-text {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
     align-self: end;
@@ -115,11 +119,13 @@
 
   .footer__menu-list-basic {
     grid-row-start: 2;
+    align-self: end;
   }
 
   .footer__menu-list-auxiliary {
     grid-row-start: 3;
     grid-column-start: 1;
+    align-self: end;
   }
 
   .footer__recommendation-text {
