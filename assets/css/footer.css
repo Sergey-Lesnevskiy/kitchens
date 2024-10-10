@@ -151,7 +151,7 @@
 }
 
 .footer__footer {
-  height: 92px;
+  min-height: 92px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
