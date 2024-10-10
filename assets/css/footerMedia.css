@@ -1,17 +1,18 @@
 @media (max-width: 1100px) {
   .footer {
-    padding-top: 53px;
+    padding-top: 68px;
     height: 744px;
   }
   .footer__main-grid {
     height: 551px;
     grid-template-columns: 1fr 200px 1fr;
-    grid-template-rows: 80px 31% 40px 60px 1fr;
+    grid-template-rows: 57px 31% 40px 77px 1fr;
     gap: 10px;
     row-gap: 20px;
   }
 
   .footer__logo {
+    margin-top:  -12px;
     grid-column-start: 1;
     grid-column-end: 2;
   }

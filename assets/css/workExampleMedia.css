@@ -1,4 +1,7 @@
 @media (max-width: 1100px) {
+  .work-examples:not(:first-of-type) {
+    padding-top: 58px;
+}
   .work-examples__cards {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, auto);
@@ -7,7 +10,9 @@
   .work-examples__card {
     max-width: 100%;
   }
-
+  .work-examples__card-img {
+    height: 291px;
+}
   .work-examples__title {
     font-size: 36px;
     line-height: 44px;
@@ -23,13 +28,19 @@
   }
 }
 @media (max-width: 430px) {
+  .work-examples:not(:first-of-type) {
+    padding-top: 53px;
+}
+
   .wrapper__carousel-work {
     position: relative;
     overflow: hidden;
     width: 100%;
     height: 596px;
   }
-
+  .work-examples__title {
+    margin-bottom: 20px;
+}
   .work-examples__cards {
     display: flex;
     position: absolute;

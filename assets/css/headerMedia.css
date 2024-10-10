@@ -77,6 +77,8 @@
   }
 
   .header__logo {
+    width: 181px;
+    height: 58px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -85,6 +87,16 @@
 }
 
 @media (max-width: 430px) {
+  .header__logo {
+    width: 100px;
+    height: 32px;
+  }
+  .header__main {
+    min-height: 64px;
+  }
+  .header__main-container {
+    min-height: 64px;
+}
   .wrapper_iconSearch,
   .header__main-supportive-content {
     display: none;
@@ -105,7 +117,7 @@
   .header__button-menu {
     position: absolute;
     left: 20px;
-    padding-inline: 11px;
+    padding-inline: 0px;
     background-color: transparent;
   }
 
