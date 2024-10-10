@@ -89,9 +89,18 @@
     max-width: 210px;
   }
 
+  .about__slogan-item {
+    padding-right: 0;
+  }
+
+  .about__slogan-item:first-child {
+    padding-bottom: 21px;
+  }
+
   .about__slogan-title {
     font-size: 20px;
     line-height: 14px;
+    letter-spacing: -0.5px;
   }
 
   .about__slogan-description {
