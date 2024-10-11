@@ -67,14 +67,6 @@
     width: 100%;
   }
 
-  .work-examples__calculate,.work-examples__order {
-    width: 100%;
-  }
-
-  .work-examples__order {
-    margin-bottom: 7px;
-  }
-
   .work-examples__card::after {
     content: none;
   }

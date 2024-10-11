@@ -22,21 +22,7 @@
   margin-bottom: 22px;
 }
 
-.work-examples__calculate {
-  width: 203px;
-  height: 48px;
-  background-color: var(--black);
-  color: var(--white);
-}
-
-.work-examples__order {
-  width: 169px;
-  height: 48px;
-  border: 1px solid var(--gray-silver);
-}
-
 .work-examples__button {
-  /* я бы убрал размеры для кнопки */
   width: 203px;
   height: 48px;
   align-self: end;
