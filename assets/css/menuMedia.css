@@ -1,30 +1,7 @@
-@media (max-width: 1100px) {
-
-  .menu.active {
-    top: 75px;
-    visibility: visible;
-    z-index: 3;
-  }
-
-  .menu__section {
-    display: none;
-  }
-  .menu__section.active{
+@media (max-width: 767px) {
+  .menu__list {
     display: block;
-  }
-  .button.button__section-menu {
-    display: none;
-  }
-
-  .menu__section-list{
-    flex-direction: column;
-  }
-  menu__list{
-    display: none;
-  }
-  .menu__list.active {
-    display: block;
-    margin-bottom: 306px; 
+    margin-bottom: 306px;
   }
 
   .menu__item {
@@ -38,6 +15,10 @@
 
   .menu__item:not(:last-child) {
     margin-bottom: 16px;
+  }
+
+  .menu__section {
+    display: none;
   }
 
   .menu__footer {
@@ -79,17 +60,12 @@
 }
 
 @media (max-width: 430px) {
-  .menu.active {
-    top: 124px;
-
-}
   .container__menu {
     padding-top: 13px;
-    min-height: 775px;
   }
 
   .menu__header {
-    display: none;
+    display: block;
   }
 
   .menu__header-button {
@@ -119,45 +95,36 @@
     margin-bottom: 34px;
   }
 
-  .menu__list.active {
+  .menu__list{
     margin-bottom: 123px;
   }
-
-  .menu__footer {
-    position: relative;
-  }
-
-  .menu__footer .footer__social-links {
+.menu__footer{
+  position: relative;
+}
+  .menu__footer .footer__social-links{
     display: none;
   }
-
-  .menu__footer .footer__contacts {
+  .menu__footer .footer__contacts{
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-
-  .menu__footer-button {
+  .menu__footer-button{
     width: 100%;
-    order: 1
+    order:1
   }
-
-  .menu__footer .footer__contacts-email {
+  .menu__footer .footer__contacts-email{
     position: absolute;
     left: 190px;
     top: 0;
   }
-
-  .menu__footer .footer__contacts-phone {
+  .menu__footer .footer__contacts-phone{
     align-items: normal;
   }
-
-  .menu__footer .footer__contacts .footer__contacts-work {
+  .menu__footer .footer__contacts .footer__contacts-work{
     margin-bottom: 16px;
     width: 181px;
   }
-
-  .footer__contacts-work span {
-    display: inline-block
-  }
+  .footer__contacts-work span{
+    display: inline-block  }
 }
