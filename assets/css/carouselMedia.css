@@ -1,0 +1,9 @@
+@media (max-width: 430px) {
+  .category {
+    width: 360px;
+  }
+
+  .category:not(:last-child) {
+    margin-right: 10px;
+  }
+}

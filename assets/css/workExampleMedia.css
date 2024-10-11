@@ -1,84 +1,77 @@
-@media (max-width: 760px) {
-  workExamples{
-    position: relative;
-    overflow: hidden;
+@media (max-width: 1100px) {
+  .work-examples:not(:first-of-type) {
+    padding-top: 58px;
+}
+  .work-examples__cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
   }
-  .workExamples__title {
-    font-weight: 500;
+
+  .work-examples__card {
+    max-width: 100%;
+  }
+  .work-examples__card-img {
+    height: 291px;
+}
+  .work-examples__title {
     font-size: 36px;
-    line-height: 43.57px;
+    line-height: 44px;
     margin-bottom: 30px;
   }
 
-  .workExamples__cards {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 472px);
-  }
-
-  .workExamples__card::after {
-    content: '';
-    width: 33px;
-    height: 33px;
-    background: url(../img/svg/Arrow.svg) 10px 7px;
-    background-repeat: no-repeat;
-    background-color: var(--black);
-    position: absolute;
-    padding: 10;
-    right: 11px;
-    bottom: 11px;
-    border-radius: 10px;
-  }
-
-  .workExamples__card:nth-child(2n+1) {
+  .work-examples__card:nth-child(2n+1) {
     display: none;
   }
 
-  .workExamples__card-buttons {
-    display: none;
-  }
-  .workExamples__button {
+  .work-examples__button {
     align-self: center;
   }
 }
 @media (max-width: 430px) {
-.wrapper__carousel-work{
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 596px;
+  .work-examples:not(:first-of-type) {
+    padding-top: 53px;
 }
 
-  .workExamples__cards {
+  .wrapper__carousel-work {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 596px;
+  }
+  .work-examples__title {
+    margin-bottom: 20px;
+}
+  .work-examples__cards {
     display: flex;
     position: absolute;
   }
-  .workExamples__card{
+
+  .work-examples__card {
     width: 288px;
     height: 596px;
   }
-  .workExamples__card-img{
-height: 347px;
+
+  .work-examples__card-img {
+    height: 347px;
   }
-  .workExamples__card-description{
+
+  .work-examples__card-description {
     font-size: 16px;
     line-height: 19.36px;
     margin-bottom:14px ;
   }
-  .workExamples__card-buttons{
+
+  .work-examples__card-buttons {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
   }
-  .workExamples__calculate,.workExamples__order{
-    width: 100%;
-  }
-  .workExamples__order{
-    margin-bottom: 7px;
-  }
-  .workExamples__card::after{
+
+  .work-examples__card::after {
     content: none;
   }
-  .workExamples__button{
+
+  .work-examples__button {
     width: 100%;
   }
 }

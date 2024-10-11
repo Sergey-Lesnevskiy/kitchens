@@ -1,3 +1,7 @@
+
+.blog:not(:first-of-type) {
+  padding-top: 99px;
+}
 .blog__container{
   display: flex;
   flex-direction: column;
@@ -7,35 +11,33 @@
   font-size: 40px;
   line-height: 48.41px;
   color: var(--black);
-  margin-bottom: 34px;
+  margin-bottom: 22px;
 }
 .blog__cards{
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
   margin-bottom: 36px;
 }
 .blog__card{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  max-width: 427px;
-  height: 530px;
+  width: 33.3%;
   background-color: var(--grey-light);
   padding: 12px 12px 23px 12px;
   border-radius: 20px;
 }
 .blog__card-date{
+  margin-top: 1rem;
   font-weight: 400;
   font-size: 14px;
   line-height: 17.64px;
   color: var(--grey-stone);
 }
 .blog__card-desc{
+  margin-top: 1rem;
   font-weight: 500;
   font-size: 20px;
   line-height: 24.2px;
 }
-.button__blog{
-  width: 203px;
-  align-self: self-end;
+.blog__button {
+  align-self: flex-end;
 }

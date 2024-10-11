@@ -1,7 +1,47 @@
+.menu {
+  content: "";
+  position: fixed;
+  top: -1900px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  visibility: hidden;
+  transition: 0.5s;
+  overflow-y: scroll;
+  z-index: 3;
+}
+
+.hide~.menu__section-list {
+  visibility: hidden;
+  transition: 0.5s;
+  z-index: 1;
+  display: none;
+}
+.menu__header-input{
+display: none;
+}
+.lock {
+  overflow: hidden;
+}
+
+.menu.active {
+  top: 117px;
+  visibility: visible;
+  z-index: 3;
+  transition: 0.5s;
+
+}
+
 .container__menu {
   padding-top: 45px;
+  padding-bottom: 145px;
+  min-height: 973px;
 }
-.menu__header,.menu__list,.menu__footer-button{
+
+.menu__header,
+.menu__list,
+.menu__footer-button {
   display: none;
 }
 
@@ -20,7 +60,6 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 29.05px;
-
 }
 
 .triangle {
@@ -29,14 +68,17 @@
   margin-left: 5px;
 }
 
-.section__menu-list {
+.menu__section-list {
   display: flex;
   flex-wrap: wrap;
   row-gap: 20px;
   column-gap: 9px;
 }
 
-.button__section-menu {
+.menu__section-item-link {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
   width: 203px;
   height: 54px;
   background-color: var(--grey-platinum);
@@ -47,20 +89,23 @@
   padding-left: 19px;
 }
 
-.triangle-down.active {
-  transform: rotate(0)
+
+.hide>.triangle-down {
+  transform: rotate(-90deg)
 }
 
 .triangle-down {
-  transform: rotate(-90deg)
+  transform: rotate(0)
 }
+
 
 .menu__footer {
   display: flex;
   justify-content: end;
 }
-.menu__footer .footer__social-link:last-child{
-display: none;
+
+.menu__footer .footer__social-link:last-child {
+  display: none;
 }
 
 .menu__footer .footer__contacts .footer__contacts-email {
@@ -72,3 +117,4 @@ display: none;
 .menu__footer .footer__contacts .footer__contacts-phone-num {
   margin-bottom: 7px;
 }
+

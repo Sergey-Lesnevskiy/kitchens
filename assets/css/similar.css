@@ -1,0 +1,36 @@
+.similar {
+  padding-top: 96px;
+}
+
+.similar__title {
+  margin-bottom: 34px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48.41px;
+  color: var(--black);
+}
+
+.similar__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.similar__card {
+  max-width: 312px;
+}
+
+.similar__card img {
+  height: 206px;
+}
+
+.similar .card__description {
+  font-size: 16px;
+  line-height: 18px;
+  text-wrap: balance;
+}
+
+.similar .card__go-to {
+  display: block;
+  align-self: flex-end;
+}
