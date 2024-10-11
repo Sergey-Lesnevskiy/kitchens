@@ -22,68 +22,6 @@
   margin-bottom: 22px;
 }
 
-.work-examples__card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  max-width: 650px;
-  padding: 11px 11px 23px 11px;
-  background-color: var(--grey-light);
-  border-radius: 20px;
-}
-
-.work-examples__card::before {
-  content: '-21%';
-  position: absolute;
-  width: 53px;
-  height: 27px;
-  color: var(--white);
-  background-color: var(--red);
-  left: 22px;
-  top: 21px;
-  border-radius: 37px;
-  padding: 5px 8px;
-}
-
-.work-examples__card-img {
-  margin-bottom: 22px;
-}
-
-.work-examples__card-description {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29.05px;
-  color: var(--black);
-  margin-bottom: 46px;
-}
-
-.work-examples__card-pricing {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.work-examples__card-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-left: auto;
-}
-
-.cost__block-desc {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16.94px;
-  color: var(--gray-charcoal);
-}
-
-.cost__block-text {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29.05px;
-}
-
 .work-examples__calculate {
   width: 203px;
   height: 48px;
