@@ -6,12 +6,12 @@
 }
 
 .footer__main-grid {
-  min-height: 439px;
+  height: 419px;
   display: grid;
   grid-template-columns: 1fr 0.2fr 0.5fr 1fr;
   grid-template-rows: 40px 40px 60px 35% 40px;
   gap: 10px;
-  row-gap: 28px;
+  row-gap: 20px;
   border-bottom: 1px solid var(--black-light)
 }
 
@@ -27,14 +27,14 @@
 
 .footer__recommendation-text {
   grid-column-start: 1;
-  grid-column-end:3;
   font-weight: 500;
   font-size: 24px;
-  align-self: end;
+  line-height: 29.05px;
 }
 
 .wrapper__input-group {
   display: flex;
+  /* margin-bottom: 47px; */
   grid-row-start: 3;
   grid-row-end: 4;
 }
@@ -49,7 +49,6 @@
 .footer__button {
   width: 58px;
   height: 50px;
-  padding-inline: 0;
   margin-left: 8px;
   background-color: var(--red);
   color: white;
@@ -63,6 +62,7 @@
 .footer__contacts {
   grid-row-start: 4;
   grid-row-end: 7;
+  align-self: end;
 }
 
 .footer__contacts-phone {
@@ -120,16 +120,14 @@
 
 .footer__menu-list-basic {
   grid-column-start: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  justify-self: center;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 
 .footer__menu-list-auxiliary {
   grid-column-start: 4;
-    grid-row-start: 3;
-    grid-row-end: 5;
-    padding-left: 51px;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 
 .footer__menu-item:not(:last-child) {
@@ -138,12 +136,9 @@
 
 .footer__social-links {
   grid-column-start: 3;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  justify-self: center;
-  align-self: end;
+  grid-row-start: 5;
+  grid-row-end: 6;
   display: flex;
-  padding-left: 50px;
 }
 
 .footer__social-link:not(:last-child) {
@@ -151,7 +146,7 @@
 }
 
 .footer__footer {
-  min-height: 92px;
+  height: 92px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
