@@ -1,0 +1,14 @@
+.favorite {
+  width: 36px;
+  height: 36px;
+  font-size: 20px;
+  color: var(--white);
+  background-color: var(--gray-steel);
+  border-radius: 10px;
+  transition: all 0.14s ease;
+}
+
+.favorite--active {
+  color: var(--red);
+  background-color: var(--grey-light);
+}
