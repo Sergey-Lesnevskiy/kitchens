@@ -1,0 +1,80 @@
+.about:not(:first-of-type) {
+  padding-top: 59px;
+}
+.about__title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--black);
+  margin-bottom: 8px;
+}
+
+.about__main {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-bottom: 19px;
+}
+
+.about__image {
+  max-width: 571px;
+  flex-shrink: 0;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.about__info{
+  margin-right: 100px;
+}
+.about__logo {
+  max-height: 120px;
+}
+
+.about__tagline {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.about__slogans-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  counter-reset: section;
+}
+
+.about__slogan-item {
+  position: relative;
+  padding-right: 20px;
+  padding-left: 134px;
+}
+
+.about__slogan-item:not(:last-child) {
+  border-right: 1px solid var(--gray-steel);
+}
+
+.about__slogan-item::before {
+  position: absolute;
+  top: 38%;
+  left: 1rem;
+  display: block;
+  font-weight: 900;
+  font-size: 64px;
+  counter-increment: section;
+  content: "0"counter(section)".";
+}
+
+.about__slogan-item:first-child::before {
+  left: 0;
+}
+
+.about__slogan-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 4px;
+}
+
+.about__slogan-description {
+  max-width: 272px;
+}

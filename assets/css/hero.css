@@ -1,31 +1,45 @@
 .hero__content {
+  position: relative;
   max-width: 1320px;
   min-height: 552px;
-  background-color: #000000;
-  background-image: url(../img/png/heroBg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   margin-bottom: 20px;
-  color: var(--white);
   padding: 116px 45px 10vw;
+  color: var(--white);
+  background-color: var(--black);
   border-radius: 10px;
 }
 
+.hero__image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.hero__title,
+.hero__service-list,
+.hero__button {
+  position: relative;
+  z-index: 1;
+}
+
 .hero__title {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 48px;
-  line-height: 58.09px;
+  line-height: 58px;
   text-transform: uppercase;
   text-wrap: balance;
-  margin-bottom: 16px;
 }
 
 .hero__service-list {
+  margin-bottom: 60px;
   font-weight: 400;
   font-size: 20px;
-  line-height: 24.2px;
-  letter-spacing: -1%;
-  margin-bottom: 59px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
 }
 
 .hero__service-item::before {
@@ -33,80 +47,4 @@
   margin: 10px 8px 0 0;
   color: var(--white);
   content: "—";
-}
-
-.hero__button {
-  width: 219px;
-  height: 57px;
-  color: var(--white);
-  background-color: var(--red);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19.36px;
-}
-
-.wrapper__carousel {
-  position: relative;
-  overflow: hidden;
-  height: 300px;
-}
-
-.carousel__cards {
-  position: absolute;
-  display: flex;
-  justify-content: space-between;
-  width: auto;
-}
-
-.carousel__card {
-  position: relative;
-  width: 427px;
-  height: 267px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: var(--grey-light);
-  border-radius: 10px;
-  padding: 9px 0 29px 0;
-  overflow: hidden;
-}
-
-.carousel__card:not(:last-child) {
-  margin-right: 19px;
-}
-
-.wrapper__text {
-  width: 135px;
-  height: 36px;
-  display: grid;
-  place-items: center;
-  background-color: var(--white);
-  border-radius: 10px;
-  margin-left: 9px;
-}
-
-.card__button {
-  width: 33px;
-  height: 33px;
-  margin-left: 29px;
-  background-color: var(--black);
-}
-
-.card__button .img-icon {
-  width: 13px;
-  height: 12px;
-}
-
-.card__background {
-  width: 224px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-.card__background-sideKitchen {
-  width: 388px;
-  bottom: -1px;
-  right: -49px;
-
 }
