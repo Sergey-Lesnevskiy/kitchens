@@ -1,0 +1,149 @@
+.product__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.product__main {
+  display: flex;
+  gap: 1rem;
+}
+
+.product__title {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.product__photos {
+  flex: 1 0 50%;
+}
+
+.product__photos .product__title {
+  display: none;
+}
+
+.slider__showcase {
+  position: relative;
+}
+
+.slider__button {
+  position: absolute;
+  top: calc(50% - 21px);
+  width: 42px;
+  height: 42px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.slider__button--prev {
+  left: 1rem;
+}
+
+.slider__button--prev svg {
+  transform: rotate(180deg);
+}
+
+.slider__button--next{
+  right: 1rem;
+}
+
+.slider__list {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.slider__item {
+  width: 92px;
+}
+
+.slider__favorite {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.product__info {
+  flex: 1 0 50%;
+}
+
+.product__info .product__title {
+  display: block;
+  margin-top: 0;
+}
+
+.product__info h3[class$="-title"] {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.product__fabric,
+.product__frame,
+.product__fittings,
+.product__size,
+.product__description {
+  margin-top: 28px;
+}
+
+.product__fabric-name,
+.product__frame-name,
+.product__fittings-item,
+.product__price-title,
+.product__size-data {
+  color: var(--gray-charcoal);
+}
+
+.product__fabric {
+  margin-top: 20px;
+}
+
+.product__fabric-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 40px;
+}
+
+.product__fabric-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product__fabric-img {
+  width: 46px;
+}
+
+.product__fittings-list {
+  list-style-type: disc;
+  padding-left: 1rem;
+}
+
+.product__price {
+  margin-top: 38px;
+}
+
+.product__price-amount {
+  font-size: 32px;
+  line-height: normal;
+}
+
+.product__button {
+  margin-top: 0.5rem;
+}
+
+.product__details-list {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 1.4rem;
+  margin-top: 58px;
+}
+
+.product__details-list-item div {
+  width: 68px;
+  height: 68px;
+  margin-bottom: 8px;
+  padding: 1rem;
+  background-color: var(--grey);
+  border-radius: 20px;
+}

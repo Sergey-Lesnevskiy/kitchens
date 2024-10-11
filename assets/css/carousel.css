@@ -1,0 +1,67 @@
+.carousel {
+  position: relative;
+  overflow: hidden;
+  height: 270px;
+}
+
+.carousel__categories {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.category {
+  position: relative;
+  width: 427px;
+  height: 267px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--grey-light);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.category:not(:last-child) {
+  margin-right: 20px;
+}
+
+.category__title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  align-self: start;
+  padding: 12px 16px;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.category__title--big {
+  width: 50%;
+  font-size: 32px;
+  line-height: 38px;
+  background-color: transparent;
+}
+
+.category__button {
+  position: absolute;
+  bottom: 28px;
+  left: 22px;
+}
+
+.category--creamy{
+  background-color: var(--creamy);
+  }
+  .category--grey-sky{
+  background-color: var(--grey-sky);
+  }
+  .category--creamy-beige{
+  background-color: var(--creamy-beige);
+  }
+  .card__title-ready-kitchen{
+    width: 241px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38.73px;
+    margin: 46px 0 0 28px;
+  }
