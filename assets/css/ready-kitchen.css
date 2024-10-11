@@ -26,7 +26,10 @@
 }
 
 .ready-kitchen__title {
-  margin-bottom: 15px;
+  margin-bottom: 62px;
+  position: relative;
+  top: 48px;
+  left: 14px;
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
@@ -37,10 +40,13 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 29.05px;
+  margin-left: 13px;
 }
+
 
 .ready-kitchen__button {
   margin-top: 98px;
+  margin-left: 9px;
 }
 .category.ready-kitchen--category{
   height: 233px;

@@ -2,7 +2,7 @@
   padding-top: 106px;
 }
 .salons:last-of-type {
-  padding-bottom: 106px;
+  padding-bottom: 99px;
 }
 .salons__title {
   font-weight: 500;
@@ -86,8 +86,8 @@
   border-radius: 10px;
 }
 
-.salons__button {
-  margin-bottom: 17px;
+  .salons__button {
+    margin-bottom: 25px;
 }
 
 .text-warning {
