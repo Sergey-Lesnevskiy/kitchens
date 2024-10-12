@@ -1,9 +1,3 @@
-.salons:not(:first-of-type) {
-  padding-top: 106px;
-}
-.salons:last-of-type {
-  padding-bottom: 99px;
-}
 .salons__title {
   font-weight: 500;
   font-size: 40px;
@@ -101,7 +95,7 @@
   height: 100%;
   width:100%;
   position:absolute;
-  
+
 }
 
   .salons__button {

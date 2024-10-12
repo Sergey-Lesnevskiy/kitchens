@@ -1,5 +1,5 @@
-.ready-kitchen:not(:first-of-type){
-  padding-top: 81px;
+.ready-kitchen {
+  padding-top: 76px !important;
 }
 
 .ready-kitchen__content {
@@ -26,14 +26,13 @@
 }
 
 .ready-kitchen__title {
-  margin-bottom: 62px;
-  position: relative;
-  top: 48px;
-  left: 14px;
+  margin-top: 48px;
+  margin-bottom: 16px;
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
   text-wrap: balance;
+  letter-spacing: -0.5px;
 }
 
 .ready-kitchen__slogan {

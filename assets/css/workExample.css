@@ -1,5 +1,5 @@
-.work-examples:not(:first-of-type) {
-  padding-top: 93px;
+.work-examples {
+  padding-top: 88px !important;
 }
 
 .work-examples__container {
@@ -26,4 +26,8 @@
   width: 203px;
   height: 48px;
   align-self: end;
+}
+
+.work-examples .card__buttons .button--outline {
+  padding-inline: 50px
 }

@@ -26,7 +26,7 @@
 
 @media (max-width: 430px) {
   .ready-kitchen:not(:first-of-type) {
-    padding-top: 62px;
+    padding-top: 51px;
   }
 
   .ready-kitchen__container>.carousel {

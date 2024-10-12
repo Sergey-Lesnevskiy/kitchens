@@ -12,12 +12,13 @@
 .about__main {
   display: flex;
   justify-content: space-between;
-  gap: 5rem;
-  margin-bottom: 19px;
+  gap: 6rem;
+  margin-bottom: 48px;
 }
 
 .about__image {
   max-width: 571px;
+  padding-top: 18px;
   flex-shrink: 0;
   object-fit: contain;
   border-radius: 10px;
@@ -33,7 +34,7 @@
   margin-top: 24px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 17px;
 }
 
 .about__slogans-list {
