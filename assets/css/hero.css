@@ -32,6 +32,7 @@
   line-height: 58px;
   text-transform: uppercase;
   text-wrap: balance;
+  letter-spacing: -0.9px;
 }
 
 .hero__service-list {
@@ -47,4 +48,10 @@
   margin: 10px 8px 0 0;
   color: var(--white);
   content: "—";
+}
+
+.hero__button {
+  padding-block: 19px;
+  padding-inline: 39px;
+  font-size: 16px;
 }

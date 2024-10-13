@@ -1,4 +1,4 @@
-.about:not(:first-of-type) {
+.about {
   padding-top: 59px;
 }
 .about__title {
@@ -12,12 +12,13 @@
 .about__main {
   display: flex;
   justify-content: space-between;
-  gap: 5rem;
-  margin-bottom: 19px;
+  gap: 6rem;
+  margin-bottom: 48px;
 }
 
 .about__image {
   max-width: 571px;
+  padding-top: 18px;
   flex-shrink: 0;
   object-fit: contain;
   border-radius: 10px;
@@ -33,7 +34,7 @@
   margin-top: 24px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 17px;
 }
 
 .about__slogans-list {
@@ -45,8 +46,16 @@
 
 .about__slogan-item {
   position: relative;
-  padding-right: 20px;
-  padding-left: 134px;
+  padding-right: 30px;
+  padding-left: 117px;
+}
+
+.about__slogan-item:last-child {
+  padding-right: 0;
+}
+
+.about__slogan-item:first-child {
+  padding-left: 114px;
 }
 
 .about__slogan-item:not(:last-child) {
@@ -56,7 +65,7 @@
 .about__slogan-item::before {
   position: absolute;
   top: 38%;
-  left: 1rem;
+  left: 0;
   display: block;
   font-weight: 900;
   font-size: 64px;
@@ -64,15 +73,17 @@
   content: "0"counter(section)".";
 }
 
-.about__slogan-item:first-child::before {
-  left: 0;
-}
+  .about__slogan-item:nth-child(2),
+  .about__slogan-item:nth-child(3) {
+    margin-left: 0.4rem;
+  }
 
 .about__slogan-title {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
+  letter-spacing: -0.8px;
 }
 
 .about__slogan-description {

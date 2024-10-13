@@ -1,17 +1,27 @@
-.ready-kitchen:not(:first-of-type){
-  padding-top: 81px;
+.ready-kitchen {
+  padding-top: 76px;
 }
 
 .ready-kitchen__content {
+  position: relative;
   max-width: 1320px;
-  height: 400px;
+  min-height: 400px;
   padding: 0;
-  background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.69) 5.95%, rgba(0, 0, 0, 0) 92.46%), url(../img/png/ready-kitchen.png);
+  background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.69) 5.95%, rgba(0, 0, 0, 0) 92.46%);
   background-repeat: no-repeat;
   margin-bottom: 20px;
   color: var(--white);
   padding: 30px 36px;
   border-radius: 20px;
+}
+
+.ready-kitchen__image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  z-index: -1;
 }
 
 .ready-kitchen__discount {
@@ -26,14 +36,13 @@
 }
 
 .ready-kitchen__title {
-  margin-bottom: 62px;
-  position: relative;
-  top: 48px;
-  left: 14px;
+  margin-top: 48px;
+  margin-bottom: 16px;
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
   text-wrap: balance;
+  letter-spacing: -0.5px;
 }
 
 .ready-kitchen__slogan {

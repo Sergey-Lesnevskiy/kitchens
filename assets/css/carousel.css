@@ -38,6 +38,7 @@
 
 .category__title--big {
   width: 50%;
+  padding: 36px 0px 16px 24px;
   font-size: 32px;
   line-height: 38px;
   background-color: transparent;
@@ -45,8 +46,8 @@
 
 .category__button {
   position: absolute;
-  bottom: 28px;
-  left: 22px;
+  bottom: 30px;
+  left: 27px;
 }
 
 .category--creamy{

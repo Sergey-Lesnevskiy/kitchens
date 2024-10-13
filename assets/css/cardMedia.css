@@ -25,6 +25,10 @@
     height: 596px;
   }
 
+  .card__image {
+    margin-bottom: 12px;
+  }
+
   .card__image img{
     height: 347px;
   }

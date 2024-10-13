@@ -1,0 +1,114 @@
+.team__title {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: var(--black);
+}
+
+.team__main {
+  display: flex;
+  gap: 22px;
+  margin-top: 52px;
+  margin-bottom: 82px;
+}
+
+.team__leader {
+  position: relative;
+  width: 32.5%;
+}
+
+.team__leader-name {
+  position: absolute;
+  top: 0;
+  right: -20px;
+  translate: 100% 0;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: var(--black);
+}
+
+.team__leader-post {
+  position: absolute;
+  top: 52px;
+  right: -20px;
+  translate: 100% 0;
+  font-size: 16px;
+  color: var(--grey-stone);
+}
+
+.team__leader-image {
+  width: 100%;
+  height: 474px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.team__description {
+  width: 67.5%;
+  margin-top: 96px;
+}
+
+.team__description p {
+  font-size: 16px;
+  line-height: 109%;
+}
+
+.team__description p:not(:first-child) {
+  margin-top: 24px;
+}
+
+.team__carousel {
+  position: relative;
+  overflow: hidden;
+  height: 296px;
+  margin-left: 60px;
+}
+
+.team__carousel-track {
+  position: absolute;
+}
+
+.team__list {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.team__item {
+  width: 203px;
+}
+
+.team__item img {
+  width: 203px;
+  height: 203px;
+}
+
+.team__item h3 {
+  margin-top: 14px;
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.team__item span {
+  font-size: 14px;
+  color: var(--grey-stone);
+}
+
+.team__carousel-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.team__carousel-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.team__carousel-btn:first-child svg {
+  rotate: 180deg;
+}

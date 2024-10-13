@@ -1,6 +1,4 @@
 @media (max-width: 1100px) {
-
-
   .hero__title {
     margin-bottom: 8px;
     font-size: 36px;
@@ -14,6 +12,10 @@
     margin-bottom: 29px;
   }
 
+  .hero__service-item {
+    letter-spacing: -0.6px;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -22,10 +24,14 @@
     max-width: 728px;
     padding: 94px 14px 60px;
   }
+
+  .hero__button {
+    padding-block: 16px;
+    padding-inline: 12px;
+  }
 }
 
 @media (max-width: 430px) {
-
   .hero__content {
     position: relative;
     height: 622px;
@@ -40,6 +46,9 @@
 
   .hero__title {
     margin-bottom: 20px;
+    text-transform: none;
+    line-height: 38px;
+    letter-spacing: 0;
   }
 
   .hero__service-list {
@@ -51,6 +60,11 @@
     bottom: -60px;
     left: 0;
     width: 100%;
+    background-color: var(--black);
+  }
+
+  .hero__button:hover {
+    background-color: var(--black-light);
   }
 
   .hero__container>.carousel {
@@ -64,5 +78,10 @@
 
   .carousel__card:not(:last-child) {
     margin-right: 11px;
+  }
+
+  .hero .category__button {
+    bottom: 16px;
+    left: 13px;
   }
 }

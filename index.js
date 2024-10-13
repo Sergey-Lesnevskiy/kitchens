@@ -1,6 +1,6 @@
 const BTN__MENU = document.querySelector(".header__button-menu");
 const MENU = document.querySelector(".menu");
-const BODY = document.querySelector(".body");
+const BODY = document.querySelector("body");
 const header__search__content = document.querySelector(".header__main-search-content");
 const groceriesMenu = document.querySelector(".menu__section");
 
@@ -11,8 +11,7 @@ const groceriesMenu = document.querySelector(".menu__section");
 // mouseout
 
 
-BTN__MENU.addEventListener("click", (e) => {
-  console.log("click");
+BTN__MENU?.addEventListener("click", (e) => {
   if (e.target.closest(".header__button-menu")) {
     toggleBurgerMenu();
     document.querySelector(".container__menu")?.addEventListener("click", (e) => {
@@ -59,19 +58,19 @@ const popup__button = document.querySelector('.popup__button');
 const personal__content = document.querySelector('.popup__content-personal-data');
 const confirmation__content = document.querySelector('.popup__content-confirmation');
 
-OPEN_POPUP.addEventListener('click', (e) => {
+OPEN_POPUP?.addEventListener('click', (e) => {
   personal__content.classList.add("active");
   confirmation__content.classList.remove('active');
   e.preventDefault();
   togglePopup();
 })
-SEND__TEXT.addEventListener('click', (e) => {
+SEND__TEXT?.addEventListener('click', (e) => {
   personal__content.classList.add("active");
   confirmation__content.classList.remove('active');
   e.preventDefault();
   togglePopup();
 })
-SEND__BTN.addEventListener('click', (e) => {
+SEND__BTN?.addEventListener('click', (e) => {
   personal__content.classList.add("active");
   confirmation__content.classList.remove('active');
   e.preventDefault();

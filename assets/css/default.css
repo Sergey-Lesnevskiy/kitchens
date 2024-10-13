@@ -53,8 +53,12 @@ p {
   margin: 0;
 }
 
-section:not(:first-of-type) {
+section {
   padding-top: 96px;
+}
+
+section:first-of-type{
+  padding-top: 0;
 }
 
 section:last-of-type {
@@ -74,8 +78,9 @@ section:last-of-type {
   border-radius: 10px;
   padding-block: 14px;
   padding-inline: 36px;
-  background-color: var(--red);
+  font-size: 16px;
   color: var(--white);
+  background-color: var(--red);
   transition: background-color 0.2s ease;
 }
 

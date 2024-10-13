@@ -1,6 +1,6 @@
 
-.blog:not(:first-of-type) {
-  padding-top: 99px;
+.blog {
+  padding-top: 96px;
 }
 .blog__container{
   display: flex;
@@ -40,4 +40,6 @@
 }
 .blog__button {
   align-self: flex-end;
+  padding-block: 18px;
+  padding-inline: 50px;
 }
