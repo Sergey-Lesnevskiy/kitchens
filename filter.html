@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Kitchens</title>
+</head>
+
+<body>
+  <div class="filter active">
+    <div class="container filter__container">
+      <div class="filter__section section-style">
+        <img src="./assets/img/svg/arrowMenu.svg" alt="" class="filter__img-arrow">
+        <div class="filter__container-text" id="section__style">
+          <h2 class="filter__section__title">Стиль</h2><img src="./assets/img/png/triangle.png"
+            class="triangle triangle-down active" alt="ico triangle">
+        </div>
+        <ul class="filter__section-list">
+          <li class="filter__section-item">
+            <input type="checkbox" id="contemporary" name="contemporary" class="filter__section-input"> 
+            <label for="contemporary">Современные</label>
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="classic">
+            <label for="classic">Классические</label>
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="neoclassical"> 
+            <label for="neoclassical">Неоклассические</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="loft"> 
+            <label for="loft">Лофт</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="modern"> 
+            <label for="modern">Модерн</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="provence"> 
+            <label for="provence">Прованс</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="english"> 
+            <label for="english">Английские</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="country"> 
+            <label for="country">Кантри</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="scandinavian">
+            <label for="scandinavian">Скандинавские</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="high-tech">
+            <label for="high-tech">Хай-тек</label>
+          </li>
+        </ul>
+      </div>
+      <div class="filter__section section-form">
+        <div class="filter__container-text" id="section__form">
+          <h2 class="filter__section__title">Форма</h2><img src="./assets/img/png/triangle.png"
+            class="triangle triangle-down active" alt="ico triangle">
+        </div>
+        <ul class="filter__section-list">
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="corner"> 
+            <label for="corner">Угловые</label>
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="straight">
+            <label for="straight">Прямые</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="u-shaped">
+            <label for="u-shaped">П-образные</label>
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="with-bar">
+            <label for="with-bar">С барной стойкой</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="narrow"> 
+            <label for="narrow">Узкие</label>
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="square"> 
+            <label for="square">Квадратные</label>
+          </li>
+        </ul>
+      </div>
+      <div class="filter__section section-material">
+        <div class="filter__container-text" id="section__materials">
+          <h2 class="filter__section__title">Материал</h2><img src="./assets/img/png/triangle.png"
+            class="triangle triangle-down active " alt="ico triangle">
+        </div>
+        <ul class="filter__section-list">
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="ldsp"> 
+            <label for="ldsp">ЛДСП</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="ldsp-egger"> 
+            <label for="ldsp-egger">ЛДСП egger</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="oak">
+            <label for="oak"> Массив дуба</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="alder">
+            <label for="alder">Массив ольхи</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="pine">
+            <label for="pine">Массив сосны</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="ash"> 
+            <label for="ash">Массив ясеня</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="mdf">
+            <label for="mdf">МДФ</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="plastic"> 
+            <label for="plastic">Пластик</label>
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="acrylic"> 
+            <label for="acrylic">Акрил</label>
+
+          </li>
+        </ul>
+      </div>
+      <div class="filter__section section-color">
+        <div class="filter__container-text hide" id="section__colors">
+          <h2 class="filter__section__title">Цвет</h2><img src="./assets/img/png/triangle.png"
+            class="triangle triangle-down" alt="ico triangle">
+        </div>
+        <ul class="filter__section-list">
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="black"> 
+            <label for="black">Черные</label>
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="beige">
+            <label for="beige"> Бежевые</label>
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="white"> 
+            <label for="white">Белые</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="turquoise"> 
+            <label for="turquoise">Бирюзовые</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="blue-light"> 
+            <label for="blue-light">Голубые</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="green"> 
+            <label for="green">Зеленые</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="yellow"> 
+            <label for="yellow">Желтые</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="red">
+            <label for="red">Красные</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="orange"> 
+            <label for="orange">Оранжевые</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="light"> 
+            <label for="light">Светлые</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="gray"> 
+            <label for="gray">Серые</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="blue"> 
+            <label for="blue">Синие</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="lilacs"> 
+            <label for="lilacs">Сиреневые</label>
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="purple"> 
+            <label for="purple">Фиолетовые</label>
+          </li>
+        </ul>
+      </div>
+      <div class="filter__section section-square">
+        <div class="filter__container-text hide" id="section__square">
+          <h2 class="filter__section__title">Площадь</h2><img src="./assets/img/png/triangle.png"
+            class="triangle triangle-down" alt="ico triangle">
+        </div>
+        <ul class="filter__section-list">
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="big"> 
+            <label for="big">Большие</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="small"> 
+            <label for="small">Маленькие</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="medium"> 
+            <label for="medium">Средние</label>
+
+          </li>
+        </ul>
+      </div>
+      <div class="filter__section section-features">
+        <div class="filter__container-text hide" id="section__features">
+          <h2 class="filter__section__title">По особенностям</h2><img src="./assets/img/png/triangle.png"
+            class="triangle triangle-down" alt="ico triangle">
+        </div>
+        <ul class="filter__section-list">
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="custom"> 
+            <label for="custom">Кухни на заказ</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="built-in"> 
+            <label for="built-in">Встроенные</label>
+
+          </li>
+          <li class="filter__section-item">
+          <input type="checkbox" class="filter__section-input" id="no-handles">
+            <label for="no-handles">Без ручек</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="flatshack"> 
+            <label for="flatshack">В хрущевку</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="studio"> 
+            <label for="studio">Для студии</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="features-with-bar"> 
+            <label for="features-with-bar">С барной стойкой</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="living-room">
+            <label for="living-room">Кухни-гостиные</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="island">
+            <label for="island">С островком</label>
+
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="modular">
+          </li>
+          <li class="filter__section-item">
+            <input type="checkbox" class="filter__section-input" id="features-contemporary">
+            <label for="features-contemporary">Современные</label>
+          </li>
+        </ul>
+      </div>
+      <div class="filter__footer">
+        <button class="button button--outline filter__button-pdf">Pdf каталог</button>
+        <button class="button button-red filter__button-catalog">Расчет стоимости</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
