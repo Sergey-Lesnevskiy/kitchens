@@ -10,10 +10,15 @@
 
   .awards__top-image img {
     position: absolute;
-    top: -24px;
-    left: 20px;
+    top: -38px;
+    left: 8%;
     width: 190px;
     height: 182px;
+  }
+
+  .awards__top-description {
+    width: 66%;
+    padding-left: 2rem;
   }
 
   .awards__top-description p {
@@ -49,6 +54,7 @@
   .awards__top-description {
     width: 100%;
     margin-top: -87px;
+    padding-left: 0;
   }
 
   .awards__top-description h2 {
