@@ -3,15 +3,25 @@
 }
 
 .ready-kitchen__content {
+  position: relative;
   max-width: 1320px;
-  height: 400px;
+  min-height: 400px;
   padding: 0;
-  background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.69) 5.95%, rgba(0, 0, 0, 0) 92.46%), url(../img/png/ready-kitchen.png);
+  background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.69) 5.95%, rgba(0, 0, 0, 0) 92.46%);
   background-repeat: no-repeat;
   margin-bottom: 20px;
   color: var(--white);
   padding: 30px 36px;
   border-radius: 20px;
+}
+
+.ready-kitchen__image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  z-index: -1;
 }
 
 .ready-kitchen__discount {
