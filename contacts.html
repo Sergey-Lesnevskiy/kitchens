@@ -5,13 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./index.css">
-  <title>Kitchens</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <title>Product Page</title>
 </head>
 
-<body class="body">
+<body>
   <header class="header">
     <div class="header__menu">
       <div class="container header__menu-container">
@@ -22,7 +19,7 @@
           </div>
           <nav class="header__nav">
             <ul class="header__nav-list">
-              <li class="header__nav-item"><a href="/about.html">О компании</a>
+              <li class="header__nav-item"><a href="/aboutUs.html">О компании</a>
               </li>
               <li class="header__nav-item"><a href="/services.html">Услуги</a>
               </li>
@@ -94,302 +91,73 @@
       </div>
     </div>
   </header>
-  <main class="main">
-    <section class="hero">
-      <div class="container hero__container">
-        <div class="hero__content">
-          <img class="hero__image" src="./assets/img/png/heroBg.png" alt="">
-          <h1 class="hero__title">BELONI - кухни по вашему рецепту</h1>
-          <ul class="hero__service-list">
-            <li class="hero__service-item">Замеряем с максимальной точностью и соблюдаем все размеры при
-              производстве</li>
-            <li class="hero__service-item">Соблюдаем сроки</li>
-            <li class="hero__service-item">Детально консультируем заказчиков по выбору материалов</li>
-            <li class="hero__service-item">Разрабатываем наглядную визуализацию под каждый проект</li>
-          </ul>
-          <button class="hero__button button">Перейти в каталог</button>
-        </div>
-        <div class="carousel">
-          <ul class="carousel__categories">
-            <li class="category hero--category">
-              <span class="category__title">Каталог кухонь</span>
-              <img class="category__image" src="./assets/img/png/sideKitchen1.png" alt="">
-              <button class="category__button button button--black button--icon">
-                <svg width="12" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                  <path
-                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
-                </svg>
-              </button>
-            </li>
-            <li class="category">
-              <span class="category__title">Мебель для дома</span>
-              <img class="category__image" src="./assets/img/png/chair.png" alt="">
-              <button class="category__button button button--black button--icon">
-                <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                  <path
-                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
-                </svg>
-              </button>
-            </li>
-            <li class="category">
-              <span class="category__title">Материалы и комплектующие</span>
-              <img class="category__image" src="./assets/img/png/doors.png" alt="">
-              <button class="category__button button button--black button--icon">
-                <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                  <path
-                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
-                </svg>
-              </button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section class="work-examples">
-      <div class="work-examples__container container">
-        <h2 class="work-examples__title">Примеры наших работ</h2>
-        <div class="wrapper__carousel-work">
-          <ul class="work-examples__cards">
-            <li class="card">
-              <div class="card__image">
-                <img src="./assets/img/png/white-kitchen.png"  alt="white kitchen">
-                <span class="card__sale">-21%</span>
-                <!-- <span class="card__stock card__stock--store">В наличии на складе</span> -->
-                <!-- <button class="card__favorite favorite">❤</button> -->
-              </div>
-              <p class="card__description">Кухня с белыми рифлёными фасадами</p>
-              <div class="card__pricing">
-                <div class="card__cost">
-                  <p class="card__cost-desc">Цена</p>
-                  <p class="card__cost-text">от <span class="cost__block-number">665 180</span> руб.</p>
-                </div>
-                <div class="card__buttons">
-                  <button class="button button--black">Расчет стоимости</button>
-                  <button class="button button--outline">Заказать</button>
-                </div>
-                <button class="card__go-to button button--black button--icon" aria-label="Перейти на страницу продукта">
-                  <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                    <path
-                      d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
-                  </svg>
-                </button>
-              </div>
-            </li>
-            <li class="card">
-              <div class="card__image">
-                <img src="./assets/img/png/white-kitchen.png"  alt="white kitchen">
-                <span class="card__sale">-21%</span>
-                <!-- <span class="card__stock card__stock--store">В наличии на складе</span> -->
-                <!-- <button class="card__favorite favorite">❤</button> -->
-              </div>
-              <p class="card__description">Кухня с белыми рифлёными фасадами</p>
-              <div class="card__pricing">
-                <div class="card__cost">
-                  <p class="card__cost-desc">Цена</p>
-                  <p class="card__cost-text">от <span class="cost__block-number">665 180</span> руб.</p>
-                </div>
-                <div class="card__buttons">
-                  <button class="button button--black">Расчет стоимости</button>
-                  <button class="button button--outline">Заказать</button>
-                </div>
-                <button class="card__go-to button button--black button--icon" aria-label="Перейти на страницу продукта">
-                  <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                    <path
-                      d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
-                  </svg>
-                </button>
-              </div>
-            </li>
-            <li class="card">
-              <div class="card__image">
-                <img src="./assets/img/png/white-kitchen.png"  alt="white kitchen">
-                <span class="card__sale">-21%</span>
-                <!-- <span class="card__stock card__stock--store">В наличии на складе</span> -->
-                <!-- <button class="card__favorite favorite">❤</button> -->
-              </div>
-              <p class="card__description">Кухня с белыми рифлёными фасадами</p>
-              <div class="card__pricing">
-                <div class="card__cost">
-                  <p class="card__cost-desc">Цена</p>
-                  <p class="card__cost-text">от <span class="cost__block-number">665 180</span> руб.</p>
-                </div>
-                <div class="card__buttons">
-                  <button class="button button--black">Расчет стоимости</button>
-                  <button class="button button--outline">Заказать</button>
-                </div>
-                <button class="card__go-to button button--black button--icon" aria-label="Перейти на страницу продукта">
-                  <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                    <path
-                      d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
-                  </svg>
-                </button>
-              </div>
-            </li>
-            <li class="card">
-              <div class="card__image">
-                <img src="./assets/img/png/white-kitchen.png"  alt="white kitchen">
-                <span class="card__sale">-21%</span>
-                <!-- <span class="card__stock card__stock--store">В наличии на складе</span> -->
-                <!-- <button class="card__favorite favorite">❤</button> -->
-              </div>
-              <p class="card__description">Кухня с белыми рифлёными фасадами</p>
-              <div class="card__pricing">
-                <div class="card__cost">
-                  <p class="card__cost-desc">Цена</p>
-                  <p class="card__cost-text">от <span class="cost__block-number">665 180</span> руб.</p>
-                </div>
-                <div class="card__buttons">
-                  <button class="button button--black">Расчет стоимости</button>
-                  <button class="button button--outline">Заказать</button>
-                </div>
-                <button class="card__go-to button button--black button--icon" aria-label="Перейти на страницу продукта">
-                  <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                    <path
-                      d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
-                  </svg>
-                </button>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <button class="work-examples__button button">Показать еще</button>
-      </div>
-    </section>
-    <section class="ready-kitchen">
-      <div class="ready-kitchen__container container">
-        <div class="ready-kitchen__content">
-          <img class="ready-kitchen__image" src="./assets/img/png/ready-kitchen.png" alt="">
-          <span class="ready-kitchen__discount">
-            Экономия до 100 000 ₽!
-          </span>
-          <h2 class="ready-kitchen__title">Готовые кухни из салонов Beloni со скидкой!</h2>
-          <p class="ready-kitchen__slogan">Приехал - Выбрал - Забрал!</p>
-          <button class="ready-kitchen__button button button--white">Подробнее</button>
-        </div>
-        <div class="carousel">
-          <ul class="carousel__categories">
-            <li class="category category--creamy ready-kitchen--category">
-              <span class="category__title category__title--big">Рассрочка и кредит</span>
-              <img class="category__image" src="./assets/img/png/goldDrops.png" alt="">
-              <button class="category__button button button--black button--icon">
-                <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                  <path
-                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
-                </svg>
-              </button>
-            </li>
-            <li class="category category--grey-sky ready-kitchen--category">
-              <span class="category__title category__title--big">Бесплатный 3D-проект </span>
-              <img class="category__image" src="./assets/img/png/cornerKitchen.png" alt="">
-              <button class="category__button button button--black button--icon">
-                <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                  <path
-                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
-                </svg>
-              </button>
-            </li>
-            <li class="category category--creamy-beige ready-kitchen--category">
-              <span class="category__title category__title--big">Подарки клиентам</span>
-              <img src="./assets/img/png/present.png" alt="">
-              <button class="category__button button button--black button--icon">
-                <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                  <path
-                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
-                </svg>
-              </button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section class="about">
-      <div class="about__container container">
-        <h2 class="about__title">
-          О нас
-        </h2>
-        <div class="about__main">
-          <img class="about__image" src="./assets/img/png/shelves.png" alt="">
-          <div class="about__info">
-            <img src="./assets/img/svg/logo/logoBig.svg" class="about__logo" alt="logo">
-            <p class="about__tagline">Мы рады видеть Вас на нашем сайте. Хотим рассказать Вам немного про нашу
-              компанию.</p>
-            <p class="about__tagline">Мы официальный представитель белорусских фабрик
-              «Elegrum»,»Pan-Fasad»,»ЗОВ-Древ»,
-              «Термопрофиль»,»ЗОВ-фасад»,»ЗОВ-Спектр».</p>
-            <p class="about__tagline">Кухни на заказ Беларуси уже стал брендом сами по себе, ведь всем понятны
-              преимущества: цена —
-              доступная, качество — высокое. Тому доказательство — отзывы наших покупателей, которые говорят: «Ваши
-              кухни выглядят намного дороже, чем стоят!».</p>
-            <p class="about__tagline">Мы уверены в фабриках, с которыми работаем, и за такое продолжительное время
-              стали настоящими фанатами
-              своего дела.</p>
-            <p class="about__tagline">
-              Миссия команды «BELONI» — дать каждому возможность покупать по-настоящему качественные вещи! Мы всегда
-              будем ответственны за ход исполнения Вашего заказа и останемся для Вас друзьями даже после окончания
-              гарантийного срока:)</p>
-          </div>
-        </div>
-        <ul class="about__slogans-list">
-          <li class="about__slogan-item">
-            <div class="about__slogan-title">
-              Качественные материалы
-            </div>
-            <div class="about__slogan-description">
-              Надежные европейские материалы и качественная фирменная фурнитура(Blum, Hettich, Vibo, SCHŰCO, Boyard,
-              GTV)
-            </div>
-          </li>
-          <li class="about__slogan-item">
-            <div class="about__slogan-title">
-              Гарантия
-            </div>
-            <div class="about__slogan-description">
-              Даем гарантию на изделия и работу до 10 лет
-            </div>
-          </li>
-          <li class="about__slogan-item">
-            <div class="about__slogan-title">
-              Качественные материалы
-            </div>
-            <div class="about__slogan-description">
-              Надежные европейские материалы и качественная фирменная фурнитура(Blum, Hettich, Vibo, SCHŰCO, Boyard,
-              GTV)
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-   <section class="blog">
-      <div class="blog__container container">
-        <h2 class="blog__title">
-          Блог
-        </h2>
-        <ul class="blog__cards">
-          <li class="blog__card">
-            <img src="./assets/img/png/redFlagKitchen.png" class="blog__card-img" alt="kitchen">
-            <p class="blog__card-date">1 июня 2024</p>
-            <p class="blog__card-desc">Какие критерии важны для оценки качества кухни?</p>
-          </li>
-          <li class="blog__card">
-            <img src="./assets/img/png/redFlagKitchen.png" class="blog__card-img" alt="kitchen">
-            <p class="blog__card-date">1 июня 2024</p>
-            <p class="blog__card-desc">Какие критерии важны для оценки качества кухни?</p>
-          </li>
-          <li class="blog__card">
-            <img src="./assets/img/png/redFlagKitchen.png" class="blog__card-img" alt="kitchen">
-            <p class="blog__card-date">1 июня 2024</p>
-            <p class="blog__card-desc">Рецепт современной кухни</p>
-          </li>
-        </ul>
-        <button class="blog__button button">Показать ещё</button>
-      </div>
-    </section>
-     <section class="salons">
+    <section class="salons contacts">
       <div class="salons__container container">
-        <h4 class="salons__title">
-          Салоны продаж
+        <h4 class="salons__title contacts__title">
+          Контакты
         </h4>
+        <h5 class="contacts__subtitle">
+          Наши салоны располагаются по адресу:
+        </h5>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <div class="contacts__item-address">
+              <img src="./assets/img/svg/mingcute_location-fill.svg" alt="">
+              <div class="contacts__item-text">
+                <h3 class="contacts__item-address-metro">МЕТРО ЭЛЕКТРОСИЛА</h3>
+                <p class="contacts__item-address-detail">Варшавская ул., д. 3, корпус 1, секция 329, 338, ТЦ «Мебельный континент»</p>
+              </div>
+            </div>
+            <div class="contacts__item-working-time">
+              <img src="./assets/img/svg/oclock.svg" alt="">
+              <div class="contacts__item-working-time-details">Время работы 11:00—20:00</div>
+            </div>
+            <div class="contacts__item-phone">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" class="svg-phone" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.41333 7.19333C5.37333 9.08 6.92 10.62 8.80667 11.5867L10.2733 10.12C10.4533 9.94 10.72 9.88 10.9533 9.96C11.7 10.2067 12.5067 10.34 13.3333 10.34C13.7 10.34 14 10.64 14 11.0067V13.3333C14 13.7 13.7 14 13.3333 14C7.07333 14 2 8.92667 2 2.66667C2 2.3 2.3 2 2.66667 2H5C5.36667 2 5.66667 2.3 5.66667 2.66667C5.66667 3.5 5.8 4.3 6.04667 5.04667C6.12 5.28 6.06667 5.54 5.88 5.72667L4.41333 7.19333Z" fill="#232323"/>
+                </svg>
+              <p class="contacts__item-number">8 (812) 646-47-06</p>
+            </div>
+          </li>
+          <li class="contacts__item">
+            <div class="contacts__item-address">
+              <img src="./assets/img/svg/mingcute_location-fill.svg" alt="">
+              <div class="contacts__item-text">
+                <h3 class="contacts__item-address-metro">МЕТРО ЛАДОЖСКАЯ</h3>
+                <p class="contacts__item-address-detail">пл. Карла Фаберже, д. 8, корп. 2, секция 417, ТЦ «Мебель Холл»</p>
+              </div>
+            </div>
+            <div class="contacts__item-working-time">
+              <img src="./assets/img/svg/oclock.svg" alt="">
+              <div class="contacts__item-working-time-details">Время работы 11:00—20:00</div>
+            </div>
+            <div class="contacts__item-phone">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" class="svg-phone" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.41333 7.19333C5.37333 9.08 6.92 10.62 8.80667 11.5867L10.2733 10.12C10.4533 9.94 10.72 9.88 10.9533 9.96C11.7 10.2067 12.5067 10.34 13.3333 10.34C13.7 10.34 14 10.64 14 11.0067V13.3333C14 13.7 13.7 14 13.3333 14C7.07333 14 2 8.92667 2 2.66667C2 2.3 2.3 2 2.66667 2H5C5.36667 2 5.66667 2.3 5.66667 2.66667C5.66667 3.5 5.8 4.3 6.04667 5.04667C6.12 5.28 6.06667 5.54 5.88 5.72667L4.41333 7.19333Z" fill="#232323"/>
+                </svg>
+              <p class="contacts__item-number">8 (812) 646-47-06</p>
+            </div>
+          </li>
+          <li class="contacts__item">
+            <div class="contacts__item-address">
+              <img src="./assets/img/svg/mingcute_location-fill.svg" alt="">
+              <div class="contacts__item-text">
+                <h3 class="contacts__item-address-metro">МЕТРО ЛЕНИНСКИЙ ПРОСПЕКТ</h3>
+                <p class="contacts__item-address-detail">Ленинский пр., д. 114 (вход со стороны пр. Стачек)</p>
+              </div>
+            </div>
+            <div class="contacts__item-working-time">
+              <img src="./assets/img/svg/oclock.svg" alt="">
+              <div class="contacts__item-working-time-details">Время работы 11:00—20:00</div>
+            </div>
+            <div class="contacts__item-phone">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" class="svg-phone" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.41333 7.19333C5.37333 9.08 6.92 10.62 8.80667 11.5867L10.2733 10.12C10.4533 9.94 10.72 9.88 10.9533 9.96C11.7 10.2067 12.5067 10.34 13.3333 10.34C13.7 10.34 14 10.64 14 11.0067V13.3333C14 13.7 13.7 14 13.3333 14C7.07333 14 2 8.92667 2 2.66667C2 2.3 2.3 2 2.66667 2H5C5.36667 2 5.66667 2.3 5.66667 2.66667C5.66667 3.5 5.8 4.3 6.04667 5.04667C6.12 5.28 6.06667 5.54 5.88 5.72667L4.41333 7.19333Z" fill="#232323"/>
+                </svg>
+              <p class="contacts__item-number">8 (812) 646-47-06</p>
+            </div>
+          </li>
+        </ul>
         <div class="map-responsive">
         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d63955.0037090271!2d30.5357895!3d59.9388811!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1728672703170!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -424,7 +192,6 @@
         </div>
       </div>
     </section>
-  </main>
   <footer class="footer">
     <div class="container footer__container">
       <div class="footer__main-grid">
@@ -1063,11 +830,7 @@
             <textarea class="text-field__textarea" type="text" name="popup-textarea" id="popup-textarea"
               placeholder="Напишите что-нибудь..."></textarea>
           </div>
-          <!-- <select class="select__input" name="country-selector" id="country-selector">
-            <option value="0">Select option</option>
-            <option value="IT">Italy</option>
-            <option value="UK">United Kingdom</option>
-          </select> -->
+
           <div class="text-field-comments popup__checkbox">
             <input type="checkbox" id="agreement" name="agreement">
             <label for="agreement">Я согласен (-на) на обработку персональных данных</label>
@@ -1088,7 +851,6 @@
     </div>
   </div>
   <script src="./index.js"></script>
-
 </body>
 
 </html>
