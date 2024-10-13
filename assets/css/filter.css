@@ -98,9 +98,7 @@ input {
   width: 100%;
 }
 @media(max-width: 430px){
-.filter__img-arrow{
-  
-}
+
 .filter__footer {
   margin-top: 54px;
 }
