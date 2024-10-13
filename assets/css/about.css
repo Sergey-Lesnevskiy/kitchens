@@ -1,4 +1,4 @@
-.about:not(:first-of-type) {
+.about {
   padding-top: 59px;
 }
 .about__title {
@@ -65,6 +65,7 @@
 .about__slogan-item::before {
   position: absolute;
   top: 38%;
+  left: 0;
   display: block;
   font-weight: 900;
   font-size: 64px;
@@ -72,13 +73,10 @@
   content: "0"counter(section)".";
 }
 
-.about__slogan-item:nth-child(1)::before,
-.about__slogan-item:nth-child(2)::before {
-  left: 0;
-}
-.about__slogan-item:nth-child(3)::before {
-  left: -1rem;
-}
+  .about__slogan-item:nth-child(2),
+  .about__slogan-item:nth-child(3) {
+    margin-left: 0.4rem;
+  }
 
 .about__slogan-title {
   font-weight: 500;

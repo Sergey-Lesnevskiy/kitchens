@@ -107,7 +107,7 @@
 }
 
 @media (max-width: 1100px) {
-  .salons:not(:first-of-type) {
+  .salons {
     padding-top: 68px;
 }
 .salons:last-of-type {
@@ -142,7 +142,7 @@
 }
 
 @media (max-width: 430px) {
-  .salons:not(:first-of-type) {
+  .salons {
     padding-top: 56px;
 }
 

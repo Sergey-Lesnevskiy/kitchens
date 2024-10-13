@@ -12,6 +12,10 @@
     margin-bottom: 29px;
   }
 
+  .hero__service-item {
+    letter-spacing: -0.6px;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -19,6 +23,11 @@
     min-height: 358px;
     max-width: 728px;
     padding: 94px 14px 60px;
+  }
+
+  .hero__button {
+    padding-block: 16px;
+    padding-inline: 12px;
   }
 }
 

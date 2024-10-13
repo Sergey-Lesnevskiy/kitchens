@@ -53,8 +53,12 @@ p {
   margin: 0;
 }
 
-section:not(:first-of-type) {
+section {
   padding-top: 96px;
+}
+
+section:first-child {
+  padding-top: 0;
 }
 
 section:last-of-type {
