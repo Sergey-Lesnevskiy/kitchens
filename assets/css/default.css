@@ -57,7 +57,7 @@ section {
   padding-top: 96px;
 }
 
-section:first-child {
+section:first-of-type{
   padding-top: 0;
 }
 
