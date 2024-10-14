@@ -1,0 +1,50 @@
+.sale {
+  margin-top: 87px;
+}
+
+.sale__container {
+}
+
+.container {
+}
+
+.sale__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.sale__slogan {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.sale__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 60px;
+}
+
+.sale {
+  .card__image {
+    margin-bottom: 8px;
+  }
+
+  .card__description {
+    margin-bottom: 35px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .card__buttons button {
+    padding-inline: 26px;
+    opacity: 0;
+  }
+
+  .card:hover .card__buttons button {
+    opacity: 1;
+  }
+}
