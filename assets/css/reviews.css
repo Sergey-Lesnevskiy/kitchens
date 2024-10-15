@@ -1,0 +1,143 @@
+.reviews {
+  margin-top: 63px;
+}
+
+.reviews__title {
+  font-weight: 600px;
+  font-size: 48px;
+  line-height: 58.09px;
+}
+
+.marketing {
+  padding: 37px 0 26px 36px;
+  background-color: var(--blue-light);
+  position: relative;
+  border-radius: 10px;
+  margin-top: 37px;
+}
+
+.marketing--text {
+  max-width: 634px;
+  display: flex;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 29.05px;
+}
+
+.marketing__text-arrow {
+  display: inline;
+  transform: rotate(180deg);
+  padding-top: 4px;
+  margin-left: 4px;
+}
+
+.marketing-img-card {
+  position: absolute;
+  right: 189.45px;
+  bottom: 0;
+}
+
+.img-card-beloni {
+  right: 66.47px;
+}
+
+.review__write {
+  margin-top: 67px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px
+}
+
+.review__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 427px;
+  width: 100%;
+}
+
+.review__form>.personal-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.review--name {
+  margin-top: 29px;
+  max-width: 100%;
+}
+
+.review--textarea {
+  margin-top: 29px;
+}
+
+.review--textarea>.text-field__textarea {
+  min-height: 198px;
+}
+
+.text-field-upload {
+  margin-top: 7px;
+}
+
+
+
+
+
+.reviews__messages {
+  max-width: 873px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.review__message {
+  padding: 20px 35px 27px 19px;
+  border-radius: 20px;
+  background-color: var(--grey-light);
+  min-height: 247px;
+
+}
+
+.review__message-date {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 15.73px;
+}
+
+.review__message-name {
+  margin-top: 4px;
+  font-size: 20px;
+  line-height: 24.2px;
+
+}
+
+.review__message-text {
+  margin-top: 19px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.reviews__statistics {
+  margin-top: 170px;
+  margin-bottom: 121px;
+  padding-left: 15px;
+
+}
+
+.reviews__statistics-score {
+  margin-top: 32px;
+  display: flex;
+
+}
+
+.reviews__statistics-score>span {
+  font-weight: 600;
+  font-size: 57px;
+  min-height: 27px;
+  align-items: center;
+  display: flex;
+  margin-right: 10px;
+}
+
+.reviews__statistics-button {
+  margin-top: 42px;
+  margin-left: -13px;
+}

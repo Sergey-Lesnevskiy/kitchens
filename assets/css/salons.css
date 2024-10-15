@@ -69,10 +69,13 @@
   height: 58px;
   padding: 20px;
   border: 1px solid var(--grey-foggy);
-  outline: 1px solid var(--black);
+  outline: 1px solid var(--grey-foggy);
   border-radius: 10px;
 }
+.text-field__input:focus{
+  outline: 1px solid var(--black);
 
+}
 .map-responsive {
   overflow: hidden;
   padding-bottom: 31.8%;
