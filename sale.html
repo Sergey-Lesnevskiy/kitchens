@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Распродажа</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header__menu">
+      <div class="container header__menu-container">
+        <div class="wrapper-location-nav">
+          <div class="header__menu-location">
+            <img src="./assets/img/svg/mingcute_location-fill.svg" class="img-location" alt="location">
+            <p class="location-name">г. Санкт-Петербург</p>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item"><a href="/aboutUs">
+                  О компании
+                </a>
+              </li>
+              <li class="header__nav-item"><a href="/services">Услуги</a>
+              </li>
+              <li class="header__nav-item"><a href="/clients">Клиентам</a>
+              </li>
+              <li class="header__nav-item"><a href="/partners">Партнерам</a>
+              </li>
+              <li class="header__nav-item"><a href="/reviews">Отзывы</a>
+              </li>
+              <li class="header__nav-item"><a href="/contacts">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__contacts">
+          <img src="./assets/img/svg/baseline-phone.svg" class="img-phone" alt="icon phone">
+          <p class="header__contacts-phone">
+            8 (812) 646-47-06
+          </p>
+          <img src="./assets/img/svg/oclock.svg" class="img-oclock" alt="icon o'clock">
+          <span class="header__contacts-work">Время работы 11:00—20:00
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="header__main">
+      <div class="header__main-container container">
+        <div class="header__main-search-content">
+          <picture class="picture">
+            <source media="(max-width: 1100px)" srcset="./assets/img/svg/logo/logoBig.svg">
+            <img src="./assets/img/svg/logo/logoAllBack.svg" alt="logo" class="header__logo">
+          </picture>
+          <button class="header__button-menu button button--black">
+            <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" class="img-button"
+              fill="currentColor">
+              <path
+                d="M0 2C0 0.895428 0.895431 0 2 0H4.22222C5.32679 0 6.22222 0.895431 6.22222 2V6.22222H2C0.895428 6.22222 0 5.32679 0 4.22222V2Z" />
+              <path
+                d="M7.77783 2C7.77783 0.895428 8.67326 0 9.77783 0H12.0001C13.1046 0 14.0001 0.895431 14.0001 2V4.22222C14.0001 5.32679 13.1046 6.22222 12.0001 6.22222H7.77783V2Z" />
+              <path
+                d="M7.77783 7.77832H12.0001C13.1046 7.77832 14.0001 8.67375 14.0001 9.77832V12.0005C14.0001 13.1051 13.1046 14.0005 12.0001 14.0005H9.77783C8.67326 14.0005 7.77783 13.1051 7.77783 12.0005V7.77832Z" />
+              <path
+                d="M0 9.77832C0 8.67375 0.895431 7.77832 2 7.77832H6.22222V12.0005C6.22222 13.1051 5.32679 14.0005 4.22222 14.0005H2C0.895428 14.0005 0 13.1051 0 12.0005V9.77832Z" />
+            </svg>
+            <span class="button-text">Меню</span>
+            <img src="./assets/img/svg/menuBurger.svg" class="header__menu-burger" alt="">
+          </button>
+          <input type="text" class="input input-header" placeholder="Что будем искать?">
+          <div class="wrapper_iconSearch">
+            <img src="./assets/img/svg/search.svg" alt="icon search" class="icon-search">
+          </div>
+        </div>
+        <div class="header__main-supportive-content">
+          <a class="header__favorites" href="/">
+            <div class="wrapper-img-heart">
+              <img src="./assets/img/svg/heart-light.svg" class="img-heart" alt="">
+            </div>
+            <span class="header__favorites-text">Избранное</span>
+          </a>
+          <button class="button button--outline" id="header__button-consultation">
+            <svg class="img-chat" width="18" height="18" viewBox="0 0 18 18" fill="#CB0A0A"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M15 1.5H3C2.175 1.5 1.5075 2.175 1.5075 3L1.5 16.5L4.5 13.5H15C15.825 13.5 16.5 12.825 16.5 12V3C16.5 2.175 15.825 1.5 15 1.5ZM5.25 6.75H12.75C13.1625 6.75 13.5 7.0875 13.5 7.5C13.5 7.9125 13.1625 8.25 12.75 8.25H5.25C4.8375 8.25 4.5 7.9125 4.5 7.5C4.5 7.0875 4.8375 6.75 5.25 6.75ZM9.75 10.5H5.25C4.8375 10.5 4.5 10.1625 4.5 9.75C4.5 9.3375 4.8375 9 5.25 9H9.75C10.1625 9 10.5 9.3375 10.5 9.75C10.5 10.1625 10.1625 10.5 9.75 10.5ZM12.75 6H5.25C4.8375 6 4.5 5.6625 4.5 5.25C4.5 4.8375 4.8375 4.5 5.25 4.5H12.75C13.1625 4.5 13.5 4.8375 13.5 5.25C13.5 5.6625 13.1625 6 12.75 6Z" />
+            </svg>
+            Консультация
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="sale">
+      <div class="sale__container container">
+        <h2 class="sale__title">Готовые кузни из салонов Beloni!</h2>
+        <p class="sale__slogan">Приехал - Выбрал - Забрал</p>
+        <ul class="sale__list">
+          <li class="card">
+            <div class="card__image">
+              <img src="./assets/img/png/sale-kitchen-1.png"  alt="white kitchen">
+              <span class="card__stock">Продажа из зала</span>
+              <button class="card__favorite favorite">❤</button>
+            </div>
+            <p class="card__description">Кухня с белыми рифлёными фасадами</p>
+            <div class="card__pricing">
+              <div class="card__cost">
+                <p class="card__cost-desc">Цена</p>
+                <p class="card__cost-text">от <span class="cost__block-number">665 180</span> руб.</p>
+              </div>
+              <div class="card__buttons">
+                <button class="button button--black">Заказать</button>
+              </div>
+              <button class="card__go-to button button--black button--icon" aria-label="Перейти на страницу продукта">
+                <svg width="14" height="14" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path
+                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__image">
+              <img src="./assets/img/png/sale-kitchen-1.png"  alt="white kitchen">
+              <span class="card__stock card__stock--store">В наличии на складе</span>
+              <button class="card__favorite favorite">❤</button>
+            </div>
+            <p class="card__description">Кухня с белыми рифлёными фасадами</p>
+            <div class="card__pricing">
+              <div class="card__cost">
+                <p class="card__cost-desc">Цена</p>
+                <p class="card__cost-text">от <span class="cost__block-number">665 180</span> руб.</p>
+              </div>
+              <div class="card__buttons">
+                <button class="button button--black">Заказать</button>
+              </div>
+              <button class="card__go-to button button--black button--icon" aria-label="Перейти на страницу продукта">
+                <svg width="14" height="14" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path
+                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__image">
+              <img src="./assets/img/png/sale-kitchen-1.png"  alt="white kitchen">
+              <span class="card__stock">Продажа из зала</span>
+              <button class="card__favorite favorite">❤</button>
+            </div>
+            <p class="card__description">Кухня с белыми рифлёными фасадами</p>
+            <div class="card__pricing">
+              <div class="card__cost">
+                <p class="card__cost-desc">Цена</p>
+                <p class="card__cost-text">от <span class="cost__block-number">665 180</span> руб.</p>
+              </div>
+              <div class="card__buttons">
+                <button class="button button--black">Заказать</button>
+              </div>
+              <button class="card__go-to button button--black button--icon" aria-label="Перейти на страницу продукта">
+                <svg width="14" height="14" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path
+                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__image">
+              <img src="./assets/img/png/sale-kitchen-1.png"  alt="white kitchen">
+              <span class="card__stock">Продажа из зала</span>
+              <button class="card__favorite favorite">❤</button>
+            </div>
+            <p class="card__description">Кухня с белыми рифлёными фасадами</p>
+            <div class="card__pricing">
+              <div class="card__cost">
+                <p class="card__cost-desc">Цена</p>
+                <p class="card__cost-text">от <span class="cost__block-number">665 180</span> руб.</p>
+              </div>
+              <div class="card__buttons">
+                <button class="button button--black">Заказать</button>
+              </div>
+              <button class="card__go-to button button--black button--icon" aria-label="Перейти на страницу продукта">
+                <svg width="14" height="14" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path
+                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__image">
+              <img src="./assets/img/png/sale-kitchen-1.png"  alt="white kitchen">
+              <span class="card__stock card__stock--store">В наличии на складе</span>
+              <button class="card__favorite favorite">❤</button>
+            </div>
+            <p class="card__description">Кухня с белыми рифлёными фасадами</p>
+            <div class="card__pricing">
+              <div class="card__cost">
+                <p class="card__cost-desc">Цена</p>
+                <p class="card__cost-text">от <span class="cost__block-number">665 180</span> руб.</p>
+              </div>
+              <div class="card__buttons">
+                <button class="button button--black">Заказать</button>
+              </div>
+              <button class="card__go-to button button--black button--icon" aria-label="Перейти на страницу продукта">
+                <svg width="14" height="14" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path
+                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__image">
+              <img src="./assets/img/png/sale-kitchen-1.png"  alt="white kitchen">
+              <span class="card__stock card__stock--store">В наличии на складе</span>
+              <button class="card__favorite favorite">❤</button>
+            </div>
+            <p class="card__description">Кухня с белыми рифлёными фасадами</p>
+            <div class="card__pricing">
+              <div class="card__cost">
+                <p class="card__cost-desc">Цена</p>
+                <p class="card__cost-text">от <span class="cost__block-number">665 180</span> руб.</p>
+              </div>
+              <div class="card__buttons">
+                <button class="button button--black">Заказать</button>
+              </div>
+              <button class="card__go-to button button--black button--icon" aria-label="Перейти на страницу продукта">
+                <svg width="14" height="14" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path
+                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__image">
+              <img src="./assets/img/png/sale-kitchen-1.png"  alt="white kitchen">
+              <span class="card__stock">Продажа из зала</span>
+              <button class="card__favorite favorite">❤</button>
+            </div>
+            <p class="card__description">Кухня с белыми рифлёными фасадами</p>
+            <div class="card__pricing">
+              <div class="card__cost">
+                <p class="card__cost-desc">Цена</p>
+                <p class="card__cost-text">от <span class="cost__block-number">665 180</span> руб.</p>
+              </div>
+              <div class="card__buttons">
+                <button class="button button--black">Заказать</button>
+              </div>
+              <button class="card__go-to button button--black button--icon" aria-label="Перейти на страницу продукта">
+                <svg width="14" height="14" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path
+                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__image">
+              <img src="./assets/img/png/sale-kitchen-1.png"  alt="white kitchen">
+              <span class="card__stock card__stock--store">В наличии на складе</span>
+              <button class="card__favorite favorite">❤</button>
+            </div>
+            <p class="card__description">Кухня с белыми рифлёными фасадами</p>
+            <div class="card__pricing">
+              <div class="card__cost">
+                <p class="card__cost-desc">Цена</p>
+                <p class="card__cost-text">от <span class="cost__block-number">665 180</span> руб.</p>
+              </div>
+              <div class="card__buttons">
+                <button class="button button--black">Заказать</button>
+              </div>
+              <button class="card__go-to button button--black button--icon" aria-label="Перейти на страницу продукта">
+                <svg width="14" height="14" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path
+                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__image">
+              <img src="./assets/img/png/sale-kitchen-1.png"  alt="white kitchen">
+              <span class="card__stock">Продажа из зала</span>
+              <button class="card__favorite favorite">❤</button>
+            </div>
+            <p class="card__description">Кухня с белыми рифлёными фасадами</p>
+            <div class="card__pricing">
+              <div class="card__cost">
+                <p class="card__cost-desc">Цена</p>
+                <p class="card__cost-text">от <span class="cost__block-number">665 180</span> руб.</p>
+              </div>
+              <div class="card__buttons">
+                <button class="button button--black">Заказать</button>
+              </div>
+              <button class="card__go-to button button--black button--icon" aria-label="Перейти на страницу продукта">
+                <svg width="14" height="14" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <path
+                    d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
+                </svg>
+              </button>
+            </div>
+          </li>
+        </ul>
+        <div class="pagination">
+          <ul class="pagination__list">
+            <li class="pagination__item pagination__item--active"><button>1</button></li>
+            <li class="pagination__item"><button>2</button></li>
+            <li class="pagination__item"><button>...</button></li>
+            <li class="pagination__item"><button>25</button></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
