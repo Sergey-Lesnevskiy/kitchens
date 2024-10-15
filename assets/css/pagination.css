@@ -1,0 +1,32 @@
+.pagination {
+  margin-top: 46px;
+}
+
+.pagination__list {
+  display: flex;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.pagination__item button {
+  min-width: 35px;
+  padding: 9px;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid var(--grey-foggy);
+}
+
+.pagination__item:first-child button {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.pagination__item:last-child button {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.pagination__item--active button {
+  color: var(--white);
+  background-color: var(--black);
+}

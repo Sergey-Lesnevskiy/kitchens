@@ -7,9 +7,11 @@
     width: 100%;
   }
 
-  /* .card:nth-child(2n+1) {
-    display: none;
-  } */
+  .card__sale,
+  .card__stock {
+    font-size: 13px;
+  }
+
 
   .card__buttons {
     display: none;
