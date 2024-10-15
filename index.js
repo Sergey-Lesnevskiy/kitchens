@@ -97,3 +97,33 @@ function openConfirmPopup() {
 }
 // popup__button
 // popup
+
+// ratings
+const ratings = document.querySelectorAll('.rating')
+
+if (ratings.length > 0) {
+  initRatings();
+}
+function initRatings() {
+  let ratingActive, ratingValue;
+  for (let index = 0; index < ratings.length; index++) {
+    const rating = ratings[index];
+    initRating(rating)
+  }
+  function initRating(rating) {
+    initRatingVars(rating);
+    setRatingWidth();
+  }
+  function initRatingVars(rating) {
+    console.log(rating);
+    ratingActive = rating.querySelector('.rating__active');
+    ratingValue = document.querySelector('.rating__value');
+  }
+  function setRatingWidth(index = ratingValue.innerHTML) {
+    const ratingActiveWidth = index / 0.05;
+  console.log(ratingActiveWidth);
+    ratingActive.style.width = `${ratingActiveWidth}%`;
+    console.log(ratingActiveWidth);
+  }
+}
+// ratings
