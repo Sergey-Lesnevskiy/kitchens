@@ -1,5 +1,4 @@
 new Swiper('.swiper',{
-  
   scrollbar: {
     el: '.swiper-scrollbar',
     draggable: true
@@ -33,4 +32,43 @@ new Swiper('.swiper',{
         },
 
       }
+})
+new Swiper('.swiper_example',{
+  scrollbar: {
+    el: '.swiper-scrollbar',
+    draggable: true
+  },
+  slideToClickedSlide: true,
+  // watchOverflow:true,
+
+  spaceBetween:20,
+  // slidesPerGroup:1,
+  autoHeight:false,
+  slidesPerView: 2,
+  grid: {
+    rows: 2,
+  },
+  // breakpoints: {
+  //       320: {
+  //       slidesPerView: 1,
+  //         spaceBetween: '10px',
+  //       },
+  //       430: {
+  //       slidesPerView: 1.2,
+  //         spaceBetween: 0,
+  //       },
+  //       767: {
+  //       slidesPerView: 2.2,
+  //         spaceBetween: 0,
+  //       },
+  //       1100: {
+  //         slidesPerView: 2,
+  //         spaceBetween: '20px',
+  //       },
+  //       1440: {
+  //         slidesPerView: 2,
+  //         spaceBetween: 0,
+  //       },
+
+  //     }
 })
