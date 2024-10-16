@@ -1,6 +1,7 @@
+
 @media (max-width: 1100px) {
   .sale {
-    margin-top: 59;
+    margin-top: 59px;
   }
 
   .sale__title {
@@ -50,3 +51,4 @@
     border-radius: 20px;
   }
 }
+
