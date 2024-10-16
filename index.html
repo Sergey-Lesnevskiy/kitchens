@@ -5,10 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./index.css">
+  
   <title>Kitchens</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 
 <body class="body">
@@ -109,11 +114,11 @@
           </ul>
           <button class="hero__button button">Перейти в каталог</button>
         </div>
-        <div class="carousel">
-          <ul class="carousel__categories">
-            <li class="category hero--category">
+        <div class="carousel swiper">
+          <ul class="carousel__categories swiper-wrapper">
+            <li class="category hero--category swiper-slide">
               <span class="category__title">Каталог кухонь</span>
-              <img class="category__image" src="./assets/img/png/sideKitchen1.png" alt="">
+              <img class="category__image carousel__image-hero" src="./assets/img/png/sideKitchen1.png" alt="">
               <button class="category__button button button--black button--icon">
                 <svg width="12" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
                   <path
@@ -121,9 +126,9 @@
                 </svg>
               </button>
             </li>
-            <li class="category">
+            <li class="category swiper-slide">
               <span class="category__title">Мебель для дома</span>
-              <img class="category__image" src="./assets/img/png/chair.png" alt="">
+              <img class="category__image carousel__image-hero" src="./assets/img/png/chair.png" alt="">
               <button class="category__button button button--black button--icon">
                 <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
                   <path
@@ -131,9 +136,9 @@
                 </svg>
               </button>
             </li>
-            <li class="category">
+            <li class="category swiper-slide">
               <span class="category__title">Материалы и комплектующие</span>
-              <img class="category__image" src="./assets/img/png/doors.png" alt="">
+              <img class="category__image carousel__image-hero" src="./assets/img/png/doors.png" alt="">
               <button class="category__button button button--black button--icon">
                 <svg width="13" height="12" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
                   <path
@@ -424,6 +429,7 @@
         </div>
       </div>
     </section>
+
   </main>
   <footer class="footer">
     <div class="container footer__container">
@@ -1088,7 +1094,8 @@
     </div>
   </div>
   <script src="./index.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./swiper.js"></script>
 </body>
 
 </html>
