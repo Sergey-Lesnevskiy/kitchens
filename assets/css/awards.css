@@ -2,12 +2,19 @@
   padding-top: 132px;
 }
 
+.awards__description {
+  font-weight: 400;
+  color: var(--grey-chocolate);
+  text-wrap: balance;
+}
+
 .awards__top-wrapper {
   display: flex;
   padding-top: 26px;
   padding-bottom: 42px;
   background-color: var(--grey);
   border-radius: 20px;
+  margin-top: 81px;
 }
 
 .awards__top-image {
