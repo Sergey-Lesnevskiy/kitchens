@@ -211,7 +211,11 @@
       <!-- </div> -->
     </section>
     <section class="awards">
+      <div class="awards__description  container">
+        Мы рады видеть Вас на нашем сайте. И хотим рассказать Вам немного про нашу компанию. Мы официальный представитель белорусских фабрик «Elegrum»,»Pan-Fasad»,»ЗОВ-Древ», «Термопрофиль»,»ЗОВ-фасад»,»ЗОВ-Спектр». Кухни на заказ Беларуси (Белоруссии) уже стал брендом сами по себе, ведь всем понятны преимущества: цена — доступная, качество — высокое. Тому доказательство — отзывы наших покупателей, которые говорят: «Ваши кухни выглядят намного дороже, чем стоят!». Мы уверены в фабриках, с которыми работаем, и за такое продолжительное время стали настоящими фанатами своего дела. Миссия команды «BELONI» — дать каждому возможность покупать по-настоящему качественные вещи! Мы всегда будем ответственны за ход исполнения Вашего заказа и останемся для Вас друзьями даже после окончания гарантийного срока:)
+      </div>
       <div class="awards__top container">
+
         <div class="awards__top-wrapper">
           <div class="awards__top-image">
             <img src="./assets/img/png/awards-top.png" alt="">
@@ -269,6 +273,39 @@
               d="M13.7071 8.70711C14.0976 8.31658 14.0976 7.68342 13.7071 7.29289L7.34315 0.928932C6.95262 0.538408 6.31946 0.538408 5.92893 0.928932C5.53841 1.31946 5.53841 1.95262 5.92893 2.34315L11.5858 8L5.92893 13.6569C5.53841 14.0474 5.53841 14.6805 5.92893 15.0711C6.31946 15.4616 6.95262 15.4616 7.34315 15.0711L13.7071 8.70711ZM0 9L13 9V7L0 7L0 9Z" />
           </svg>
         </button>
+      </div>
+    </section>
+    <section class="salons">
+      <div class="salons__container container">
+        <div class="salons__entry">
+          <div class="salons__entry-text-wrap">
+            <h5 class="salons__entry-title">Запишитесь в салон</h5>
+            <p class="salons__entry-description">Запишитесь к дизайнеру-консультанту, чтобы исключить время долгого
+              ожидания в салоне.</p>
+          </div>
+          <form action="" class="form">
+            <div class="personal-data">
+              <div class="text-field-name">
+                <label class="text-field__label" for="name">Введите Имя</label>
+                <input class="text-field__input" type="text" name="name" id="name" placeholder="Ваше имя">
+              </div>
+              <div class="text-field-phone">
+                <label class="text-field__label" for="phone">Введите номер телефона</label>
+                <input class="text-field__input" type="tel" name="phone" placeholder="+7 (000) 000-00-00">
+              </div>
+            </div>
+            <div class="text-field-salons">
+              <label class="text-field__label" for="salons">Выберите салон</label>
+              <input class="text-field__input" type="text" name="salons" list="listSalons" placeholder="Список салонов">
+              <datalist id="listSalons">
+                <option value="some text">some text</option>
+              </datalist>
+            </div>
+            <button class="button salons__button button-red">Записаться в салон</button>
+            <div class="text-warning">Нажимая на кнопку записаться в салон, я принимаю условия <span>политики
+                конфиденциальности.</span></div>
+          </form>
+        </div>
       </div>
     </section>
   </main>
