@@ -127,3 +127,9 @@ function initRatings() {
   }
 }
 // ratings
+
+const pageHideListener = (event) => {
+  // alert(`axios.post('/logs', { name: 'Log', data: 'some data' }`);
+// нужно убрать слушателя
+};
+window.addEventListener("pagehide", pageHideListener);

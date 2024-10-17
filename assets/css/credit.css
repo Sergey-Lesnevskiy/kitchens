@@ -1,0 +1,134 @@
+.credit {
+  margin-top: 63px;
+}
+
+.credit__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59.09px;
+}
+
+.text-middle {
+  font-size: 24px;
+  line-height: 29.05px;
+}
+
+.title-small {
+  font-weight: 400;
+}
+
+.credit__prepare-subtitle {
+  margin-top: 32px;
+}
+
+.credit__prepare-desc {
+  margin-top: 8px;
+}
+
+.credit__logo-bank {
+  width: 140px;
+  height: 83px;
+  margin-top: 27px;
+}
+
+.credit__titles-weak-block {
+  font-weight: 600;
+}
+
+.credit__conditions-title {
+  margin-top: 32px;
+}
+
+.credit__conditions-desc {
+  margin-top: 26px;
+}
+
+.credit__conditions-list {
+  margin-top: 40px;
+  list-style: inside;
+}
+
+.credit__conditions-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.credit__arrange-title {
+  margin-top: 32px;
+}
+
+.credit__documents-title {
+  margin-top: 32px;
+}
+
+.credit__documents-subtitle {
+  margin-top: 6px;
+}
+
+.credit__documents-explanation {
+  margin-top: 32px;
+}
+
+.credit__steps-list {
+  margin-top: 32px;
+  list-style: inside;
+  counter-reset: section;
+  list-style-position: inside;
+}
+
+.credit__step {
+  position: relative;
+}
+
+.decoration-text {
+  padding-left: 20px;
+}
+
+.credit__step::before {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  counter-increment: section;
+  content: counter(section) ".";
+}
+
+.credit__step::marker {
+  position: absolute;
+  left: 0;
+}
+.credit__instalment-desc {
+  margin-top: 6px;
+}
+.credit__step:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.credit__installments-subtitle {
+  margin-top: 95px;
+}
+.credit__instalment-desc {
+  margin-top: 6px;
+}
+
+.credit__logo-back-red {
+  width: 140px;
+  height: 83px;
+  margin-top: 32px;
+}
+
+.credit__benefits-list {
+  margin-top: 32px;
+  list-style: inside;
+}
+
+.credit__benefit:not(:last-child) {
+
+  margin-bottom: 13px;
+}
+
+.credit__license {
+  margin-top: 32px;
+}
