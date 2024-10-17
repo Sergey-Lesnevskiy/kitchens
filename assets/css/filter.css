@@ -3,6 +3,10 @@
   max-width: 767px;
 }
 
+.filter__title {
+  display: none;
+}
+
 .filter__img-arrow {
   margin-bottom: 24px;
 }
@@ -43,6 +47,10 @@ input {
 
 .filter__section-item:not(:last-child) {
   margin-bottom: 10px;
+}
+
+.filter__section-item:last-child {
+  margin-bottom: 30px;
 }
 
 .filter__section-input {

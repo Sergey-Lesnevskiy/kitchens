@@ -21,6 +21,7 @@
 @import './assets/css/menu.css';
 @import './assets/css/menuMedia.css';
 @import './assets/css/filter.css';
+@import './assets/css/filterMedia.css';
 @import './assets/css/popup.css';
 @import './assets/css/product.css';
 @import './assets/css/productMedia.css';
@@ -48,4 +49,5 @@
 @import './assets/css/pagination.css';
 @import './assets/css/tables.css';
 @import './assets/css/tablesMedia.css';
-
+@import './assets/css/catalog.css';
+@import './assets/css/catalogMedia.css';
