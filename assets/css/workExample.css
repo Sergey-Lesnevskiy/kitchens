@@ -15,7 +15,7 @@
 }
 
 .work-examples__cards{
-  height: 950px;
+  min-height: 950px;
 }
 
 .work-examples__cards {

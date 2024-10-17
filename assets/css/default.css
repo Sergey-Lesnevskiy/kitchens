@@ -124,3 +124,8 @@ section:last-of-type {
 .button--outline:hover {
   background-color: var(--grey-sky);
 }
+.title-page{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59.09px;
+}
