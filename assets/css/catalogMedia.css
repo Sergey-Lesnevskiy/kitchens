@@ -11,6 +11,10 @@
     display: none;
   }
 
+  .catalog__content {
+    padding-bottom: 0 !important;
+  }
+
   .catalog__title {
     display: none;
   }
@@ -28,5 +32,11 @@
 
   .catalog__list {
     margin-top: 22px;
+  }
+}
+
+@media (max-width: 620px) {
+  .catalog__list {
+    grid-template-columns: 1fr;
   }
 }

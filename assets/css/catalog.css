@@ -56,7 +56,7 @@
 
 .catalog__content {
   flex-grow: 1;
-  height: auto;
+  padding-bottom: 56px !important;
 }
 
 .catalog__title {
