@@ -7,6 +7,10 @@
   .button {
     width: 100%;
   } */
+   .title-page{
+    font-size: 36px;
+    line-height: 43.57px;
+   }
 }
 @media (max-width: 430px) {
   .button {

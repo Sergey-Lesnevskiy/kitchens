@@ -133,3 +133,15 @@ const pageHideListener = (event) => {
 // нужно убрать слушателя
 };
 window.addEventListener("pagehide", pageHideListener);
+
+const questions = document.querySelector('.questions__list');
+questions.addEventListener('click',(e)=>{
+  if (e.target.closest(".question__item")) {
+    console.log(e.target);
+    toggleQuestion(e);
+  }
+})
+
+function toggleQuestion(e){
+e.target.closest(".question__item").classList.toggle("active");
+}
