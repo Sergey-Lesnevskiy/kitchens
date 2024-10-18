@@ -1,0 +1,17 @@
+.selected {
+  margin-top: 46px;
+}
+
+.selected__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.5px;
+}
+
+.selected__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 34px;
+}
