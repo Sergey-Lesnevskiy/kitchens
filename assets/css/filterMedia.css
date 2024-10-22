@@ -1,0 +1,46 @@
+@media(min-width: 1099px) {
+  .filter__container {
+    padding: 0;
+  }
+
+  .filter__title {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.8px;
+  }
+
+  .filter__container-text {
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 18px 14px;
+    background-color: var(--grey-light);
+    border-radius: 10px;
+  }
+
+  .filter__section__title {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.8px;
+  }
+
+  .hide>.filter__section__title {
+    margin-bottom: 0;
+  }
+
+  .filter__img-arrow {
+    display: none;
+  }
+
+  .filter__section-item {
+    padding-left: 14px;
+  }
+
+  .filter__footer {
+    margin-top: 26px;
+  }
+}

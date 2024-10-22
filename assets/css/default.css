@@ -81,7 +81,7 @@ section:last-of-type {
   font-size: 16px;
   color: var(--white);
   background-color: var(--red);
-  transition: background-color 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .button:hover {
@@ -94,7 +94,7 @@ section:last-of-type {
 }
 
 .button--icon {
-  padding: 12px;
+  padding: 12px 14px;
 }
 
 .button--black {
@@ -123,4 +123,9 @@ section:last-of-type {
 
 .button--outline:hover {
   background-color: var(--grey-sky);
+}
+.title-page{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59.09px;
 }

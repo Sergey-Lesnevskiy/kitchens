@@ -1,0 +1,14 @@
+@media (max-width: 1100px) {
+  .selected {
+    margin-top: 36px;
+  }
+
+  .selected__title {
+    font-size: 36px;
+  }
+
+  .selected__list {
+    grid-template-columns: 1fr;
+    margin-top: 16px;
+  }
+}

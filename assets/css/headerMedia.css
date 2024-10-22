@@ -87,6 +87,10 @@
 }
 
 @media (max-width: 430px) {
+  .input-header.active{
+    display: block;
+    width: 100%;
+  }
   .header__logo {
     width: 100px;
     height: 32px;
@@ -115,8 +119,10 @@
   }
 
   .header__button-menu {
+    width: 42px;
+    height: 42px;
     position: absolute;
-    left: 10px;
+    left: 20px;
     padding-inline: 0px;
     background-color: transparent;
   }

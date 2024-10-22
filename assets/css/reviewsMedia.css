@@ -1,0 +1,26 @@
+@media (max-width: 1100px) {
+
+
+  .marketing--text {
+    max-width: 348px;
+  }
+
+  .review__write {
+    flex-direction: column-reverse;
+    gap: 59px;
+  }
+
+  .reviews__messages {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .marketing {
+    min-height: 258px;
+  }
+
+  .review__message {
+    min-height: 267px;
+  }
+}

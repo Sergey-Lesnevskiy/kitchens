@@ -98,12 +98,13 @@ display: none;
   transform: rotate(0)
 }
 
-
 .menu__footer {
   display: flex;
   justify-content: end;
 }
-
+.menu__footer > .footer__social-links{
+  align-self: flex-start;
+}
 .menu__footer .footer__social-link:last-child {
   display: none;
 }
