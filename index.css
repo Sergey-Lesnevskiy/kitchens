@@ -41,6 +41,8 @@
 @import './assets/css/teamMedia.css';
 @import './assets/css/awards.css';
 @import './assets/css/awardsMedia.css';
+@import './assets/css/materials.css';
+@import './assets/css/materialsMedia.css';
 @import './assets/css/sale.css';
 @import './assets/css/saleMedia.css';
 @import './assets/css/credit.css';
@@ -53,3 +55,4 @@
 @import './assets/css/catalogMedia.css';
 @import './assets/css/selected.css';
 @import './assets/css/selectedMedia.css';
+
