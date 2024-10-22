@@ -84,16 +84,24 @@
   font-size: 16px;
   margin-bottom: 14px;
 }
-
+.text-field-phone{
+  position: relative;
+}
+.popup-ico-flag{
+  position: absolute;
+  left: 6px;
+  top: 41px
+}
 .text-field__input-datalist {
   position: relative;
   display: inline-block;
-  width: 93px;
+  width: 94px;
   height: 58px;
-  padding: 11px 23px 11px 11px;
+  padding: 11px 2px 11px 37px;
   border-left: 1px solid var(--grey-foggy);
   border-bottom: 1px solid var(--grey-foggy);
   border-top: 1px solid var(--grey-foggy);
+  border-right: 1px solid var(--grey-foggy);
   border-radius: 10px 0 0 10px;
 }
 
@@ -104,8 +112,9 @@
 }
 
 .text-field__input-phone {
+  margin-left: -3px;
   display: inline-block;
-  width: calc(100% - 99px);
+  width: calc(100% - 96px);
   height: 58px;
   padding: 11px 23px 11px 11px;
   border-right: 1px solid var(--grey-foggy);
@@ -158,4 +167,10 @@ input[type="password"] {
   background: rgba(215, 226, 246, 1);
   border-radius: 10px;
   margin-bottom: 4px;
+}
+
+@media (max-width: 767px){
+.popup{
+  padding: 20px;
+}
 }
