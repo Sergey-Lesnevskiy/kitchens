@@ -38,7 +38,12 @@
   .menu__item:not(:last-child) {
     margin-bottom: 16px;
   }
-
+.menu__item-link{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
   .menu__footer {
     justify-content: space-between;
     align-items: end;

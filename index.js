@@ -1,6 +1,7 @@
 const BODY = document.querySelector("body");
 
 const BTN__MENU = document.querySelector(".header__button-menu");
+const header_input = document.querySelector(".input-header");
 
 const popup = document.querySelector('.popup__wrapper');
 const personal__content = document.querySelector('.popup__content-personal-data');
@@ -111,6 +112,7 @@ function toggleQuestion(e) {
 function toggleBurgerMenu() {
   MENU?.classList.toggle("active");
   BTN__MENU.classList.toggle("active");
+  header_input.classList.toggle("active");
   header__search__content.classList.toggle("active");
   BODY.classList.toggle("lock");
   if (MENU.classList.contains('active')) {

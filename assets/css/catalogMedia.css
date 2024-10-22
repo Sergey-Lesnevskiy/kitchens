@@ -7,10 +7,6 @@
     font-size: 24px;
   }
 
-  /*  {
-    display: none;
-  } */
-
   .catalog__filter {
   content: "";
   position: fixed;
