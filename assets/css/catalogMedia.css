@@ -7,9 +7,31 @@
     font-size: 24px;
   }
 
-  .catalog__filter {
+  /*  {
     display: none;
-  }
+  } */
+
+  .catalog__filter {
+  content: "";
+  position: fixed;
+  top: 0px;
+  right: -1900px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  visibility: hidden;
+  transition: 0.5s;
+  overflow-y: scroll;
+  z-index: 3;
+}
+.filter.active {
+  right: 0;
+  visibility: visible;
+  z-index: 3;
+  transition: 0.5s;
+
+}
+
 
   .catalog__content {
     padding-bottom: 0 !important;

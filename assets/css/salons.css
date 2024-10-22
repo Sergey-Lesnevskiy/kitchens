@@ -57,6 +57,21 @@
 .text-field-salons {
   margin-bottom: 17px;
 }
+.select-wrapper {
+  position: relative;
+}
+.select-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  top: calc(50% - 36px);
+  height: 15px;
+  right: 25px;
+  background-image: url(../img/png/triangle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
 
 .text-field__label {
   display: block;

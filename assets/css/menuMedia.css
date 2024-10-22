@@ -15,7 +15,6 @@
   .button.button__section-menu {
     display: none;
   }
-
   .menu__section-list{
     flex-direction: column;
   }
