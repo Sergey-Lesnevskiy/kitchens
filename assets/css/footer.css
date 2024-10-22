@@ -81,7 +81,6 @@
 }
 
 .footer__contacts-text {
-  font-weight: 500;
   font-size: 16px;
   line-height: 19.36px;
   color: var(--red);
@@ -90,8 +89,6 @@
 
 .footer__contacts-work {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16.94px;
   color: var(--grey-dull);
   margin-bottom: 36px;
 }
@@ -100,20 +97,16 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 24.2px;
-  letter-spacing: -6%;
   text-decoration: underline;
 }
 
 .footer__contacts-email-text {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16.94px;
   color: var(--grey-dull);
   margin-bottom: 36px;
 }
 
 .footer__list {
-  font-weight: 500;
   font-size: 16px;
   line-height: 19.36px;
 }

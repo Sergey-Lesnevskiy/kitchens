@@ -37,7 +37,8 @@ function handlerActive(e) {
 
   //menu
   //popup
-  if (e.target.closest("#header__button-consultation")) {
+  if (e.target.closest(".button-consultation")) {
+    console.log('click');
     personal__content.classList.add("active");
     confirmation__content.classList.remove('active');
     e.preventDefault();
