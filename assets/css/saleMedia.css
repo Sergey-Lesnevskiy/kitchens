@@ -40,12 +40,12 @@
     grid-template-columns: 1fr;
   }
 
-  .card {
+  .sale__list .card {
     width: auto;
     height: auto;
   }
 
-  .card img {
+  .sale__list .card img {
     height: 206px;
     object-fit: cover;
     border-radius: 20px;
