@@ -12,6 +12,7 @@
 
 .salons__entry-text-wrap {
   max-width: 458px;
+  padding-right: 5px;
 }
 
 .salons__entry-title {
@@ -142,6 +143,7 @@
   .salons__entry-text-wrap {
     max-width: max-content;
     margin-bottom: 60px;
+    padding-right: 0;
   }
 
   .text-warning {
