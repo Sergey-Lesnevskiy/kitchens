@@ -52,6 +52,18 @@
 }
 
 @media (max-width: 620px) {
+  .catalog-intro__content {
+    min-height: 671px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .catalog-intro__button {
+    max-width: 155px;
+    height: 55px;
+  }
   .catalog__list {
     grid-template-columns: 1fr;
   }
@@ -59,4 +71,13 @@
     width: auto;
     height: auto;
   }
+}
+@media (max-width: 420px) {
+  .catalog-intro__title {
+      font-size: 27px;
+      line-height: 38px;
+  }
+  .catalog-intro__slogan {
+    font-size: 16px;
+}
 }
