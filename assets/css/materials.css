@@ -39,16 +39,14 @@
   gap: 20px;
 }
 
-.materials {
-  .card {
-    padding: 12px;
-  }
+.materials .card {
+  padding: 12px;
+}
 
-  .card__image {
-    margin-bottom: 0;
-  }
+.materials .card__image {
+  margin-bottom: 0;
+}
 
-  .card__image img {
-    border-radius: 20px;
-  }
+.materials .card__image img {
+  border-radius: 20px;
 }

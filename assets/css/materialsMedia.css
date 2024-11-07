@@ -35,15 +35,13 @@
     grid-template-columns: 1fr;
   }
 
-  .materials {
-    .card {
-      width: auto;
-      height: auto;
-    }
+  .materials .card {
+    width: auto;
+    height: auto;
+  }
 
-    .card__image img {
-      height: 158px;
-      object-fit: cover;
-    }
+  .materials .card__image img {
+    height: 158px;
+    object-fit: cover;
   }
 }
