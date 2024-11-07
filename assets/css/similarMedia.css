@@ -2,4 +2,10 @@
   .similar {
     display: none;
   }
+  .similar__card {
+    height: auto;
+    width: auto;
+}
+
+
 }

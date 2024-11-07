@@ -27,8 +27,6 @@
   transition: 0.5s;
 
 }
-
-
   .catalog__content {
     padding-bottom: 0 !important;
   }
@@ -56,5 +54,9 @@
 @media (max-width: 620px) {
   .catalog__list {
     grid-template-columns: 1fr;
+  }
+  .catalog .card {
+    width: auto;
+    height: auto;
   }
 }

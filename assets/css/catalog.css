@@ -78,12 +78,10 @@
   gap: 20px;
 }
 
-.catalog {
-  .card__buttons {
+.catalog .card__buttons {
     display: none;
   }
-
-  .card__go-to {
+.catalog .card__go-to {
     display: block;
   }
-}
+
